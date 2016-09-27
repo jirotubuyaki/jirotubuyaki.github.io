@@ -28,9 +28,10 @@
 
 ####　Exhibition
 　　Exhibition of "Jikosenden-heki" Vol.11 2010 at Sizuoka stationb  
-　　Fishs simulation program  
-　　Working group documents  
-　　Ashida, H., Okada, M., and Uosaki, K. 2010. Fork length at 95th percentile of cumulative length frequency as an indicator of maximum length for albacore Thunnus alalunga in the Pacific Ocean prior to 1965. 　ISC/11/ALBWG/19  
+　　Fishs simulation program 
+
+####Papers  
+　　* Ashida, H., Okada, M., and Uosaki, K. 2010. Fork length at 95th percentile of cumulative length frequency as an indicator of maximum length for albacore Thunnus alalunga in the Pacific Ocean prior to 1965. 　ISC/11/ALBWG/19  
 
 ####　Activity
 　　Business Venturing・Research・Media Art  
