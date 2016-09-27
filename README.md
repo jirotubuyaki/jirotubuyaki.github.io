@@ -1,4 +1,4 @@
-### Welcome to Masashi Okada's Webpages.
+### Welcome to Masashi Okada's Web Pages.
 #### Masashi OKADA (Shizuoka-city Japan)
 #### History
   1978 born in Shizuoka City  
