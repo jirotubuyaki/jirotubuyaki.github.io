@@ -1,9 +1,9 @@
 ### Welcome to Masashi Okada's Webpages.
 #### Masashi OKADA (Shizuoka-city Japan)
 #### History
-1978 born in Shizuoka City  
-　Okayama university system engineering course.  
-　Programmer&Reserch&Manager   
+  1978 born in Shizuoka City  
+  Okayama university system engineering course.  
+  Programmer&Reserch&Manager   
 #### Skill
 JavaScript,R,Java,Perl,PHP  
 C++,Objective-C,ActionScript,SQL  
