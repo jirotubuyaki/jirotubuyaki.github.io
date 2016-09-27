@@ -1,12 +1,10 @@
 ### Welcome to Masashi Okada's Web Pages.
 #### Masashi OKADA (Shizuoka-city Japan)
 #### PortFolio
-<http://okaal.html.xdomain.jp/logs/index.html> :Mainly ActionScript,Javascript
-
+<http://okaal.html.xdomain.jp/logs/pc_high.html> :Mainly ActionScript,Javascript
 #### GitHub
 <https://github.com/jirotubuyaki> :Several codes published.  
 https://jirotubuyaki.github.io/hmds/ hmds: An R Package for Heuristic High and Multi Dimentional Scaling  
-
 #### History
 1978 born in Shizuoka City  
 Okayama university system engineering course.  
