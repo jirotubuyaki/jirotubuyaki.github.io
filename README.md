@@ -10,7 +10,7 @@ https://jirotubuyaki.github.io/hmds/ hmds: An R Package for Heuristic High and M
 #### History
 1978 born in Shizuoka City  
 Okayama university system engineering course.  
-Programmer&Reserch&Manager   
+Programmer & Resercher & Manager   
 #### Skill
 JavaScript,R,Java,Perl,PHP  
 C++,Objective-C,ActionScript,SQL  
