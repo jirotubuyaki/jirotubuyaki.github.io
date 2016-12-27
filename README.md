@@ -1,5 +1,5 @@
 ### Welcome to Masashi Okada's Web Pages.
-#### Masashi OKADA (Shizuoka-city Japan)
+#### Masashi OKADA (Shizuoka-City Japan)
 #### PortFolio
 <http://okaal.html.xdomain.jp/logs/pc_high.html> :Mainly ActionScript,Javascript
 #### GitHub
@@ -12,7 +12,7 @@ Programmer & Resercher & Manager
 #### Skill
 JavaScript,R,Java,Perl,PHP  
 C++,Objective-C,ActionScript,SQL  
-XML,cocos2dx,CreateJS  
+XML,CreateJS  
 Windows,MacOS,UNIX,MySQL  
 TOEIC 745  
 #### Study
@@ -21,13 +21,13 @@ Algorithms,Machine,Learning,Data Mining,Statistics,Applied Mathmatics
 Development of Web Systems (LAMP)  
 Development of UNIX systems (Perl)  
 Development of FLASH  
-Fisheries resource analysis software  
+Fisheries Resource Analysis Software  
 Development of Social Games  
 Development of iPhone App  
 Statistical Analysis  
 Development of R package  
 #### Exhibition
-* Exhibition of "Jikosenden-heki" Vol.11 2010 at Sizuoka stationb Fishs simulation program  
+* Exhibition of "Jikosenden-heki" Vol.11 2010 at Sizuoka station Fishs simulation program  
 
 #### Papers  
 * Ashida, H., Okada, M., and Uosaki, K. 2010. Fork length at 95th percentile of cumulative length frequency as an indicator of maximum length for albacore Thunnus alalunga in the Pacific Ocean prior to 1965. 　ISC/11/ALBWG/19  
