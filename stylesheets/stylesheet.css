@@ -28,6 +28,9 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+p.profile {
+  text-align: justify;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
