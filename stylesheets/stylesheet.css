@@ -51,7 +51,10 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-
+p.profile {
+  text-align: justify;
+  text-justify: distribute-all-lines; 
+}
 body {
   box-sizing: border-box;
   color:#373737;
@@ -263,7 +266,10 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
+p.profile {
+  text-align: justify;
+  text-justify: distribute-all-lines; 
+}
 .outer {
   width: 100%;
 }
@@ -381,6 +387,10 @@ Small Device Styles
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
+  }
+  p.profile {
+    text-align: justify;
+    text-justify: distribute-all-lines; 
   }
 
   #downloads {
