@@ -30,6 +30,7 @@ time, mark, audio, video {
 }
 p.profile {
   text-align: justify;
+  text-justify: distribute-all-lines; 
 }
 
 /* HTML5 display-role reset for older browsers */
