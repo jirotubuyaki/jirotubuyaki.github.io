@@ -3,13 +3,12 @@
 html{
 	overflow-y:scroll;
 	overflow-x:hidden;
-	background-color:#000000;
+	background-color:#fff;
 	height:100%;
 	width:100%;
 	margin:0;
 	padding: 0;
 /* Background pattern from subtlepatterns.com */
-	background-image: url("../images/black_lozenge_@2X.png");
 	background-repeat:repeat;
 }	
 body{
@@ -19,7 +18,6 @@ body{
 	margin:0 auto;
 	padding: 0;
 /* Background pattern from subtlepatterns.com */
-	background-image: url("../images/black_lozenge_@2X.png");
 	background-repeat:repeat;
 }
 header{
