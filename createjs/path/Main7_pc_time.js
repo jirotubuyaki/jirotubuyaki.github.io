@@ -201,14 +201,6 @@
 
 			}
 
-
-			Clock(stage,stage.canvas.width/2-320,stage.canvas.height-400,1);
-			Clock(stage,stage.canvas.width/2-200,stage.canvas.height-400,2);
-			Clock(stage,stage.canvas.width/2-55,stage.canvas.height-400,3);
-			Clock(stage,stage.canvas.width/2+55,stage.canvas.height-400,4);
-			Clock(stage,stage.canvas.width/2+200,stage.canvas.height-400,5);
-			Clock(stage,stage.canvas.width/2+320,stage.canvas.height-400,6);
-
 			var graphics = new createjs.Graphics();
 			graphics
 			.setStrokeStyle(2.2)
