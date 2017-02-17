@@ -169,7 +169,7 @@ A:active.touch{
 	display: table-cell;
 	text-align:center;
    	vertical-align: middle;
-	background-color:#ff1493;
+	background-color:#ddd;
 	width: 165px;
 	height: 45px;
 	font-size: 10pt; text-decoration:none; color:#fff;
@@ -178,7 +178,7 @@ A:hover.touch{
 	display: table-cell;
 	text-align:center;
    	vertical-align: middle;
-	background-color:#ff1493;
+	background-color:#ddd;
 	width: 165px;
 	height: 45px;
 	font-size: 10pt; text-decoration:underline; color:#fff;
@@ -207,7 +207,7 @@ A:active.logo{
 	height: 45px;
 	font-size: 15pt;
 	text-decoration:underline;
-	color:#ff1493;
+	color:#ddd;
 	margin: 0 auto;
 	white-space: nowrap;
 }
@@ -216,12 +216,12 @@ A:hover.logo{
 	height: 45px;
 	font-size: 15pt;
 	text-decoration:underline;
-	color:#ff1493;
+	color:#ddd;
 	margin: 0 auto;
 	white-space: nowrap;
 }
 #page-top {
-    background: #ff1493;
+    background: #ddd;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -230,7 +230,7 @@ A:hover.logo{
     border-radius: 2px;
 }
 #page-top a {
-    background: ##ff1493;
+    background: #ddd;
     text-decoration: none;
     color: #fff;
     width: 80px;
@@ -241,18 +241,18 @@ A:hover.logo{
 }
 #page-top a:hover {
     text-decoration: none;
-    background: #ff1493;
+    background: #ddd;
 }
 A:link.language{
 	font-size: 10pt;
 	text-decoration:underline;
-	color:#ff1493;
+	color:#ddd;
 	margin: 0 auto;
 }
 A:visited.language{
 	font-size: 10pt;
 	text-decoration:underline;
-	color:#ff1493;
+	color:#ddd;
 	margin: 0 auto;
 }
 A:active.language{
@@ -395,7 +395,7 @@ A:hover.language{
 		display: table-cell;
 		text-align:center;
     	vertical-align: middle;
-		background-color:#ff1493;
+		background-color:#ddd;
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:none; color:#fff;
@@ -404,7 +404,7 @@ A:hover.language{
 		display: table-cell;
 		text-align:center;
     	vertical-align: middle;
-		background-color:#ff1493;
+		background-color:#ddd;
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:underline; color:#fff;
@@ -431,7 +431,7 @@ A:hover.language{
 		height: 45px;
 		font-size: 15pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:hover.logo{
@@ -439,19 +439,19 @@ A:hover.language{
 		height: 45px;
 		font-size: 15pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:link.language{
 		font-size: 10pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:visited.language{
 		font-size: 10pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:active.language{
@@ -593,7 +593,7 @@ A:hover.language{
 		display: table-cell;
 		text-align:center;
     	vertical-align: middle;
-		background-color:#ff1493;
+		background-color:#ddd;
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:none; color:#fff;
@@ -602,7 +602,7 @@ A:hover.language{
 		display: table-cell;
 		text-align:center;
     	vertical-align: middle;
-		background-color:#ff1493;
+		background-color:#ddd;
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:underline; color:#fff;
@@ -629,7 +629,7 @@ A:hover.language{
 		height: 45px;
 		font-size: 15pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:hover.logo{
@@ -637,20 +637,20 @@ A:hover.language{
 		height: 45px;
 		font-size: 15pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:link.language{
 		font-size: 12pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:visited.language{
 
 		font-size: 12pt;
 		text-decoration:underline;
-		color:#ff1493;
+		color:#ddd;
 		margin: 0 auto;
 	}
 	A:active.language{
