@@ -27,11 +27,12 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   vertical-align: baseline;
+  font-size: 13px;
 }
 p.profile {
   text-align: justify;
   text-justify: distribute-all-lines; 
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -55,7 +56,7 @@ Theme Styles
 p.profile {
   text-align: justify;
   text-justify: distribute-all-lines; 
-  font-size: 13px;
+  font-size: 14px;
 }
 body {
   box-sizing: border-box;
@@ -390,7 +391,7 @@ Small Device Styles
 
 @media screen and (max-width: 480px) {
   body {
-    font-size:14px;
+    font-size:12px;
   }
   p.profile {
     text-align: justify;
@@ -412,27 +413,27 @@ Small Device Styles
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   h3 {
-    font-size: 21px;
+    font-size: 16px;
   }
 
   h4 {
-    font-size: 18px;
-  }
-
-  h5 {
     font-size: 14px;
   }
 
-  h6 {
+  h5 {
     font-size: 12px;
+  }
+
+  h6 {
+    font-size: 10px;
   }
 
   code, pre {
