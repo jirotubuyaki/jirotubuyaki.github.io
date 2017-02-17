@@ -509,9 +509,9 @@
 			 		.to({alpha:1},3000+Math.random()*2000, createjs.Ease.linear);
 
     			createjs.Ticker.setFPS(23);
-				createjs.Ticker.addEventListener("tick",act);
-				var act;
-				function act(){
+				createjs.Ticker.addEventListener("tick",act_2);
+				var act_2;
+				function act_2(){
 					var time;
 					time_flag = true;
 					var DD = new Date();
