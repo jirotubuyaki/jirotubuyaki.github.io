@@ -142,6 +142,7 @@ p.my_in{
 	width:165px;
 	height:50px;
 	margin:5px auto;
+	background-color: #000;
 }
 A:link.touch{
 	display: table-cell;
@@ -150,7 +151,7 @@ A:link.touch{
    	vertical-align: middle;
 	width: 165px;
 	height: 45px;
-	font-size: 10pt; text-decoration:none; color:#ddd;
+	font-size: 10pt; text-decoration:none; color:#fff;
 /* Background pattern from subtlepatterns.com */
 	background-image: url("../images/darkdenim3_@2X.png");
 	background-repeat:repeat;
@@ -161,7 +162,7 @@ A:visited.touch{
    	vertical-align: middle;
 	width: 165px;
 	height: 45px;
-	font-size: 10pt; text-decoration:none; color:#ddd;
+	font-size: 10pt; text-decoration:none; color:#fff;
 	background-repeat:repeat;
 }
 A:active.touch{
@@ -369,6 +370,7 @@ A:hover.language{
 		height:50px;
 		margin:5px 10px 5px 10px;
 		padding-left:0px;
+		background-color: #000;
 	}
 	A:link.touch{
 		display: table-cell;
@@ -377,7 +379,7 @@ A:hover.language{
     	vertical-align: middle;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:none; color:#000;
+		font-size: 10pt; text-decoration:none; color:#fff;
 		background-repeat:repeat;
 	}
 	A:visited.touch{
@@ -386,7 +388,7 @@ A:hover.language{
     	vertical-align: middle;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:none; color:#000;
+		font-size: 10pt; text-decoration:none; color:#fff;
 		background-repeat:repeat;
 	}
 	A:active.touch{
@@ -566,6 +568,7 @@ A:hover.language{
 		height:50px;
 		margin:5px 10px 5px 10px;
 		padding-left:0px;
+		background-color: #000;
 	}
 	A:link.touch{
 		display: table-cell;
@@ -574,7 +577,7 @@ A:hover.language{
     	vertical-align: middle;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:none; color:#000;
+		font-size: 10pt; text-decoration:none; color:#fff;
 		background-repeat:repeat;
 	}
 	A:visited.touch{
@@ -583,7 +586,7 @@ A:hover.language{
     	vertical-align: middle;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:none; color:#000;
+		font-size: 10pt; text-decoration:none; color:#fff;
 		background-repeat:repeat;
 	}
 	A:active.touch{
