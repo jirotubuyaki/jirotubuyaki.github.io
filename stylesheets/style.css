@@ -8,7 +8,6 @@ html{
 	width:100%;
 	margin:0;
 	padding: 0;
-/* Background pattern from subtlepatterns.com */
 	background-repeat:repeat;
 }	
 body{
@@ -17,7 +16,6 @@ body{
 	width:100%;
 	margin:0 auto;
 	padding: 0;
-/* Background pattern from subtlepatterns.com */
 	background-repeat:repeat;
 }
 header{
@@ -164,8 +162,6 @@ A:visited.touch{
 	width: 165px;
 	height: 45px;
 	font-size: 10pt; text-decoration:none; color:#fff;
-/* Background pattern from subtlepatterns.com */
-	background-image: url("../images/darkdenim3_@2X.png");
 	background-repeat:repeat;
 }
 A:active.touch{
@@ -382,8 +378,6 @@ A:hover.language{
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:none; color:#fff;
-/* Background pattern from subtlepatterns.com */
-		background-image: url("../images/darkdenim3_@2X.png");
 		background-repeat:repeat;
 	}
 	A:visited.touch{
@@ -393,8 +387,6 @@ A:hover.language{
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:none; color:#fff;
-/* Background pattern from subtlepatterns.com */
-		background-image: url("../images/darkdenim3_@2X.png");
 		background-repeat:repeat;
 	}
 	A:active.touch{
@@ -583,8 +575,6 @@ A:hover.language{
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:none; color:#fff;
-/* Background pattern from subtlepatterns.com */
-		background-image: url("../images/darkdenim3_@2X.png");
 		background-repeat:repeat;
 	}
 	A:visited.touch{
@@ -594,8 +584,6 @@ A:hover.language{
 		width: 165px;
 		height: 45px;
 		font-size: 10pt; text-decoration:none; color:#fff;
-/* Background pattern from subtlepatterns.com */
-		background-image: url("../images/darkdenim3_@2X.png");
 		background-repeat:repeat;
 	}
 	A:active.touch{
