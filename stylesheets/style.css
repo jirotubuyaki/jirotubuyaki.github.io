@@ -172,7 +172,7 @@ A:active.touch{
 	background-color:#ff1493;
 	width: 165px;
 	height: 45px;
-	font-size: 10pt; text-decoration:none; color:#ff1493;
+	font-size: 10pt; text-decoration:none; color:#fff;
 }
 A:hover.touch{
 	display: table-cell;
@@ -181,7 +181,7 @@ A:hover.touch{
 	background-color:#ff1493;
 	width: 165px;
 	height: 45px;
-	font-size: 10pt; text-decoration:underline; color:#ff1493;
+	font-size: 10pt; text-decoration:underline; color:#fff;
 }
 A:link.logo{
 	display: block;
@@ -398,7 +398,7 @@ A:hover.language{
 		background-color:#ff1493;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:none; color:#ff1493;
+		font-size: 10pt; text-decoration:none; color:#fff;
 	}
 	A:hover.touch{
 		display: table-cell;
@@ -407,7 +407,7 @@ A:hover.language{
 		background-color:#ff1493;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:underline; color:#ff1493;
+		font-size: 10pt; text-decoration:underline; color:#fff;
 	}
 	A:link.logo{
 		display: block;
@@ -596,7 +596,7 @@ A:hover.language{
 		background-color:#ff1493;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:none; color:#ff1493;
+		font-size: 10pt; text-decoration:none; color:#fff;
 	}
 	A:hover.touch{
 		display: table-cell;
@@ -605,7 +605,7 @@ A:hover.language{
 		background-color:#ff1493;
 		width: 165px;
 		height: 45px;
-		font-size: 10pt; text-decoration:underline; color:#ff1493;
+		font-size: 10pt; text-decoration:underline; color:#fff;
 	}
 	A:link.logo{
 		display: block;
