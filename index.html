@@ -1,147 +1,126 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="UTF-8">
+	<title>オカダアルゴリズム発明研究所</title>
+	<meta name="description" content="オカダアルゴリズム発明研究所。最新の数理・統計理論を実装した広く使われる便利な統計ソフトウェアの開発を目指す。">
+  <meta name="viewport" content="maximum-scale=2.0,width=device-width,initial-scale=1.0,user-scalable=yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="robots" content="all">
+	<meta name="author" content="Masashi OKADA">
+	<meta name="keywords" content="Bayesian,MCMC,Markov Chain Monte Carlo,Machine Learning,Statistics,Statistical software">
+	<link rel=StyleSheet href="./css/reset.css">
+	<link rel=StyleSheet href="./css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon.ico">
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-3866453-9', 'auto');
+	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<div class="all">
+		<div class="head">
+			<header>
+				<a href="./index.html"><img class="logo" src="./images/logo.png"></a>
+				<h1>Okada Algorithm</h1>
+				<h2>Private Invention<br>Research Laboratory</h2>
+			</header>
+			<div class="divnavi"><a class="navi" href="./index.html">TOP</a></div>
+			<div class="divnavi"><a class="navi" href="https://github.com/jirotubuyaki">GitHub</a></div><br>
+			<div class="divnavi"><a class="navi" href="./index_en.html">English</a></div>
+			<div class="divnavi"><a class="navi" href="mailto:okadaalgorithm@gmail.com">Contact</a></div>
+		</div>
+		<div class="contents">
+			<div class="top">
+		  	<a class="on" href="./index.html">TOP</a>
+		  	<a class="on" href="https://github.com/jirotubuyaki">GitHub</a>
+		  	<a class="on" href="./contents.html">PortFolio</a>
+		  	<a class="on" href="mailto:okadaalgorithm@gmail.com">Contact</a>
+			</div>
+			<div class="contents_in">
+				<h3>Algorithm and Statistics　　　<a href="./index_en.html">English Version</a></h3>
+				<div class="line"></div>
+				<h3><font class="icon">■</font>Masashi OKADA (Shizuoka-City Japan)</h3>
+				<br>
+				<p class="profile">ホームページへアクセスして頂いてありがとうございます。私は主に統計学やアルゴリズムを使ったソフトウェアの開発をしています。開発ジャンルは多岐に渡り、iPhoneアプリやソーシャルゲーム・Webシステムの開発・データ分析などを経験してきました。最近は、オープンソースと産業応用に向けた知的ソフトウェアの開発に興味があります。
+						多くの方に使って頂ける便利なソフトウェアの開発を目指しています。私の作るプログラムが多くの方のお役に立てるよう、努力を怠らないつもりです。よろしくお願い致します。
+				</p>
+				<h3><font class="icon">■</font>ポートフォリオ</h3>
+				<p><a href="contents.html">ポートフォリオページ</a> ジェネラティブアート・シミュレーション (ActionScript3.0 & JavaScript)</p>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Okada Algorithm Private Invention Research Laboratory : Statistics and Algorithm">
+			<h3><font class="icon">■</font>GitHub</h3>
+			<p><a href="https://github.com/jirotubuyaki">GitHubページ</a> R & Scala & JavaScriptなどのプログラムをオープンソースで公開しています。<br><a href="https://jirotubuyaki.github.io/Traffic-Simulator/">Traffic-Simulator</a> ActionScript3.0<br><a href="https://jirotubuyaki.github.io/hmds/"> hmds </a>An R Package for Heuristic High and Multi Dimentional Scaling</p>
+			<h3><font class="icon">■</font>経歴</h3>
+			<p>1978年静岡&nbsp;生まれ<br>
+					岡山大学&nbsp;工学部&nbsp;システム工学科&nbsp;卒<br>
+					プログラマ&nbsp;＆&nbsp;研究者&nbsp;＆&nbsp;マネージャー&nbsp;などを経験
+			</p>
+			<h3><font class="icon">■</font>開発実績</h3>
+			<h3><font class="icon">■</font>Web システムの開発 (LAMP)</h3>
+			<ul>
+			<li>ome-kart オンラインショップ (2003-2009)</li>
+			<li>Mondial co ltd. 流通システム (2007-2009)</li>
+			</ul>
+			<h3><font class="icon">■</font>UNIX システムの開発</h3>
+			<ul>
+			<li>サーバコントロールシステム (2003-2005)</li>
+			<li>ブログクローラーベースシステム (2004-2005)</li>
+			</ul>
+			<h3><font class="icon">■</font>FLASH & CreateJS　の開発</h3>
+			<ul>
+			<li><a href="contents.html">ポートフォリオページ</a> (2002-2016)</li>
+			</ul>
+			<h3><font class="icon">■</font>水産資源評価関連ツールの開発</h3>
+			<ul>
+			<li>(独)　遠洋水産研究所 (2010)</li>
+			</ul>
+			<h3><font class="icon">■</font>ソーシャルゲームの開発</h3>
+			<ul>
+			<li>イケメンホスト学園 in Yahoo モバゲー (2009)</li>
+			<li>牡丹の庭 in Yahoo モバゲー (2009)</li>
+			</ul>
+			<h3><font class="icon">■</font>iPhone アプリの開発</h3>
+			<ul>
+			<li>カワイイカレンダー in iPhone App (2012)</li>
+			<li>カワイイ猫カレンダー in iPhone App (2013)</li>
+			</ul>
+			<h3><font class="icon">■</font>統計解析言語　R　のパッケージ開発</h3>
+			<ul>
+			<li>Jdmbs: An R package for A Monte Carlo Option Pricing Algorithm for Jump Diffusion Model with Correlation Companies <a href="https://github.com/jirotubuyaki/Jdmbs">GitHub 2016</a></li>
+			<li>hmds: An R Package for Heuristic High and Multi Dimentional Scaling <a href="https://jirotubuyaki.github.io/hmds/">GitHub 2016</a></li>
+			</ul>
+			<h3><font class="icon">■</font>論文</h3>
+			<ul>
+			<li>Jdmbs: An R package for A Monte Carlo Option Pricing Algorithm for Jump Diffusion Model with Correlation Companies <a href="https://cran.r-project.org/web/packages/Jdmbs/index.html">CRAN 2017/02</a></li><BR>
+			<li>Ashida, H., Okada, M., and Uosaki, K. 2010. Fork length at 95th percentile of cumulative length frequency as an indicator of maximum length for albacore Thunnus alalunga in the Pacific Ocean prior to 1965. 　ISC/11/ALBWG/19<br>
+			</li>
+			</ul>
+			<h3><font class="icon">■</font>グループ展</h3>
+			<ul>
+			<li>自己宣伝癖展 Vol.11 2010 at 静岡パルシェ 魚の食物連鎖　展示<br>
+			</li>
+			</ul>
+			<h3><font class="icon">■</font>スキル</h3>
+			<p>R, Scala, Java, PHP, JavaScript<br>
+			  C++, Objective-C, Perl, ActionScript, SQL<br>
+			  CreateJS<br>
+			  MacOS, UNIX, MySQL<br>
+			  Sublime, Atom, Xcode, vi<br >
+			  TOEIC 745 </p>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Okada Algorithm Private Invention Research Laboratory</title>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-3866453-9', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jirotubuyaki">View on GitHub</a>
-          
-          <h1 id="project_title">Okada Algorithm Private Invention Research Laboratory</h1>
-          <h2 id="project_tagline">Statistics and Algorithm</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-masashi-okadas-web-pages" class="anchor" href="#welcome-to-masashi-okadas-web-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Masashi Okada's Web Pages.<br><a href="./index.html">English</a>　| <a href="./index_jp.html">日本語</a></h3>
-
-<h4>
-<a id="masashi-okada-shizuoka-city-japan" class="anchor" href="#masashi-okada-shizuoka-city-japan" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Masashi OKADA (Shizuoka-City Japan)</h4>
-<p class="profile">Thank you for visiting my web page. I act in the areas of Statistics and Algorithms. Mainly I create programs like animations and simulators, statistics libraries. My mission is contributing to the societies like open source and industry. Sometime I develop the products of smartfone apps or games. And I hope my products to help your activities in lots of fields. Thanks! </p> 
-<h4>
-<a id="portfolio" class="anchor" href="#portfolio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PortFolio</h4>
-
-<p><a href="contents.html">my Portfolio pages</a> Generative Arts & Simulators (ActionScript & JavaScript)</p>
-
-<h4>
-<a id="github" class="anchor" href="#github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub</h4>
-
-<p><a href="https://github.com/jirotubuyaki">my GitHub pages</a> Several codes published.<br><a href="https://jirotubuyaki.github.io/Traffic-Simulator/">Traffic-Simulator</a> ActionScript<br><a href="https://jirotubuyaki.github.io/hmds/"> hmds </a>An R Package for Heuristic High and Multi Dimentional Scaling</p>
-
-<h4>
-<a id="history" class="anchor" href="#history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>History</h4>
-
-<p>1978 born in Shizuoka City<br>
-Okayama University System Engineering Course.<br>
-Experience in Programmer &amp; Researcher &amp; Manager   </p>
-        
-<h4>
-<a id="experience" class="anchor" href="#experience" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developments</h4>
-
-<h7>Development of Web Systems (LAMP)</h7>
-<ul>
-<li>ome-kart Online Shop System (2003-2009)</li>
-<li>Mondial Distribute System (2007-2009)</li>
-</ul>
-<h7>Development of UNIX Systems</h7>
-<ul>
-<li>Server Control Tools (2003-2005)</li>
-<li>Base System for Blogs Crawler (2004-2005)</li>
-</ul>
-<h7>Development of FLASH & CreateJS</h7>
-<ul>
-<li>Please look at <a href="contents.html">my Portfolio pages</a> (2002-2016)</li>
-</ul>
-<h7>Fisheries Resource Analysis Tools</h7>
-<ul>
-<li>At National Research Institite of Far Sea Fisheries, Fisheries Agency (2010)</li>
-</ul>
-<h7>Development of Social Games</h7>
-<ul>
-<li>"Ikemen Hosuto Gakuin" in Yahoo Mobage (2009)</li>
-<li>"Botan no Niwa" in Yahoo Mobage (2009)</li>
-</ul>
-<h7>Development of iPhone App</h7>
-<ul>
-<li>"Kawaii Calendar" in iPhone App (2012)</li>
-<li>"Kawaii Cat Calendar" in iPhone App (2013)</li>
-</ul>
-<h7>Development of R package</h7>
-<ul>
-<li>Jdmbs: An R package for A Monte Carlo Option Pricing Algorithm for Jump Diffusion Model with Correlation Companies <a href="https://github.com/jirotubuyaki/Jdmbs">GitHub 2016</a></li>
-<li>hmds: An R Package for Heuristic High and Multi Dimentional Scaling <a href="https://jirotubuyaki.github.io/hmds/">GitHub 2016</a></li>
-</ul>
-<h4>
-<a id="papers" class="anchor" href="#papers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Papers</h4>
-
-<ul>
-<li>Jdmbs: An R package for A Monte Carlo Option Pricing Algorithm for Jump Diffusion Model with Correlation Companies <a href="https://github.com/jirotubuyaki/Jdmbs">CRAN 2017/02</a></li><BR>
-<li>Ashida, H., Okada, M., and Uosaki, K. 2010. Fork length at 95th percentile of cumulative length frequency as an indicator of maximum length for albacore Thunnus alalunga in the Pacific Ocean prior to 1965. 　ISC/11/ALBWG/19<br>
-</li>
-</ul>
-<h4>
-<a id="exhibition" class="anchor" href="#exhibition" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exhibition</h4>
-
-<ul>
-<li>Exhibition of "Jikosenden-heki" Vol.11 2010 at Sizuoka station Fishs simulation program<br>
-</li>
-</ul>
-<h4>
-<a id="skill" class="anchor" href="#skill" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Skill</h4>
-
-<p>R, Scala, Java, PHP, JavaScript<br>
-  C++, Objective-C, Perl, ActionScript, SQL<br>
-  CreateJS<br>
-  MacOS, UNIX, MySQL<br>
-  Sublime, Atom, Xcode, vi<br >
-  TOEIC 745 </p>
-
-<h4>
-<a id="study" class="anchor" href="#study" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Study</h4>
-
-<p>Algorithms, Machine Learning, Data Mining, Statistics, Applied Mathmatics  </p>
-
-<h4>
-<a id="activity" class="anchor" href="#activity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Activity</h4>
-
-<p>Business Venturing・Research・Media Art<br>
-  Book reading・English・Web  </p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+			<h3><font class="icon">■</font>勉強</h3>
+			<p>アルゴリズム, 機械学習, データマイニング, 統計学, 数理工学  </p>
+			<h3><font class="icon">■</font>活動領域</h3>
+			<p>ベンチャリング, 研究, メディアアート, 読書, 英語, インターネット</p>
+		</div>
+			<p id="foot">Copyright &copy; Okada Algorithm Private Invention Research Laboratory All Rights Reserved.</p>
+		</div>
+	</div>
+<div id="reactive"><a href="http://www.reactivemanifesto.org/"> <img style="border: 0; position: fixed; right: 0; top:0; z-index: 9000" src="https://d379ifj7s9wntv.cloudfront.net/reactivemanifesto/images/ribbons/we-are-reactive-red-right.png"> </a></div>
+</body>
 </html>
