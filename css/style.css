@@ -14,9 +14,9 @@ html{
 body{
 	font-family: 'Cantarell', sans-serif;
 	height:100%;
-	width: 100%;
+	width: 360px;
 	padding: 0;
-	margin: 13px 0px 0px 0px;
+	margin: 13px auto;
 }
 header{
 	display: block;
@@ -224,6 +224,13 @@ A:hover.on{
 	display: none;
 }
 @media screen and (min-width:800px){
+	body{
+		font-family: 'Cantarell', sans-serif;
+		height:100%;
+		width: 800px;
+		padding: 0;
+		margin: 13px auto;
+	}
 	header{
 		display: block;
 		float: left;
@@ -424,6 +431,13 @@ A:hover.on{
 	}
 }
 @media screen and (min-width:1200px){
+	body{
+		font-family: 'Cantarell', sans-serif;
+		height:100%;
+		width: 1200px;
+		padding: 0;
+		margin: 13px auto;
+	}
 	header{
 		display: block;
 		float: left;
