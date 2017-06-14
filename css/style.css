@@ -12,15 +12,16 @@ html{
 	background-repeat:repeat;
 }
 body{
+	float: center;
 	font-family: 'Cantarell', sans-serif;
 	height:100%;
-	width: 100%;
+	width: 320px;
 	padding: 0;
-	margin: 13px 0px 0px 0px;
+	margin: 13px auto;
 }
 header{
 	display: block;
-	float: left;
+	float: center;
 	width: 320px;
 	text-align: left;
 	margin: 5px 0px 0px 0p;
@@ -96,7 +97,7 @@ li{
 	width:270px;
 	height: 160px;
 	padding: 0px;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 .top {
 	display: block;
@@ -128,7 +129,7 @@ li{
 	width:320px;
 	height: 2080px;
 	padding: 0px;
-	margin: 0px auto;
+	margin: 0 auto;
 	/* Background pattern from subtlepatterns.com　https://www.toptal.com/designers/subtlepatterns/ */
 	background-image: url("../images/grey_wash_wall_@2X.png");
 	background-repeat:repeat;
@@ -146,7 +147,7 @@ li{
 	text-align: center;
 	font-size: 9px;
 	color:#000;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 A:link{
 	font-size: 10pt; text-decoration:underline; color:#ff1493;
