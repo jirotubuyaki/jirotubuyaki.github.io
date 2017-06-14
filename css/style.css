@@ -14,14 +14,14 @@ html{
 body{
 	font-family: 'Cantarell', sans-serif;
 	height:100%;
-	width: 360px;
+	width: 320px;
 	padding: 0;
 	margin: 13px auto;
 }
 header{
 	display: block;
 	float: left;
-	width: 300px;
+	width: 320px;
 	text-align: left;
 	margin: 5px 0px 0px -30px;
 	padding: 0;
@@ -41,7 +41,7 @@ h1 {
 	width:300px;
 	font-size: 23px;
 	color:#222;
-	margin: -80px 0px 10px 170px;
+	margin: -80px 0px 10px 160px;
 	padding: 0;
 }
 h2 {
@@ -51,14 +51,14 @@ h2 {
 	width:300px;
 	font-size: 13px;
 	color:#222;
-	margin: -40px 10px 10px 110px;
+	margin: -40px 10px 10px 100px;
 	padding: 0;
 }
 h3 {
-	width:360px;
+	width:310px;
 	font-size: 16px;
 	color:#ccc;
-	margin: 25px 10px 10px 10px;
+	margin: 25px 5px 10px 5px;
 	padding: 0;
 }
 .logo {
@@ -71,7 +71,7 @@ h3 {
 	display: block;
 	float: center;
 	text-align: center;
-	width:360px;
+	width:320px;
 	height: 1000px;
 	margin: 0px auto;
 
@@ -106,7 +106,7 @@ h3 {
 	display: block;
 	float: center;
 	text-align: center;
-	width:360px;
+	width:320px;
 	height:26px;
 	padding: 0px;
 	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
@@ -114,7 +114,7 @@ h3 {
 	background-repeat:repeat;
 }
 .line {
-	width:360px;
+	width:320px;
 	height:2px;
 	margin: 10px 0px 0px 0px;
 	background-color:#ff1493;
@@ -125,7 +125,7 @@ h3 {
 	margin-right: 5px;
 }
 .top_image {
-	width:360px;
+	width:320px;
 	height: 120px;
 	border:0px;
 	margin: 0px 0px 0px 0px;
@@ -135,7 +135,7 @@ h3 {
 	display: block;
 	float: left;
 	text-align: left;
-	width:360px;
+	width:320px;
 	height: 2000px;
 	padding: 0px;
 	margin: 0px 0px 0px 0px;
@@ -152,8 +152,8 @@ p{
 	text-align: justify;
 	font-size: 13px;
 	color:#aaa;
-	margin: 10px 10px 10px 20px;
-	width:320px;
+	margin: 10px 10px 10px 10px;
+	width:300px;
 	padding: 0;
 }
 ul {
@@ -187,7 +187,7 @@ A:hover{
 		color: #ff1493;
 		text-align: center;
 		padding: 5px 0px 0px 0px;
-		width: 90px;
+		width: 80px;
 		height: 30px;
 		text-decoration: underline;
 		font-size: 11pt;
