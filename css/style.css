@@ -4,6 +4,7 @@ html{
 	overflow-y:scroll;
 	overflow-x:hidden;
 	height:100%;
+	width: 100%;
 	margin:0;
 	padding: 0;
 	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
@@ -13,8 +14,9 @@ html{
 body{
 	font-family: 'Cantarell', sans-serif;
 	height:100%;
+	width: 100%;
 	padding: 0;
-	margin: 13px 10px 0px 10px;
+	margin: 13px 0px 0px 0px;
 }
 header{
 	display: block;
@@ -94,7 +96,7 @@ h3 {
 .contents {
 	clear: both;
 	display: block;
-	float: left;
+	float: center;
 	text-align: center;
 	width:360px;
 	height: 2100px;
@@ -102,7 +104,7 @@ h3 {
 }
 .top {
 	display: block;
-	float: left;
+	float: center;
 	text-align: center;
 	width:360px;
 	height:26px;
