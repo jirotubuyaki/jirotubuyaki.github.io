@@ -19,7 +19,7 @@ body{
 header{
 	display: block;
 	float: left;
-	width: 320px;
+	width: 300px;
 	text-align: left;
 	margin: 5px 0px 0px -30px;
 	padding: 0;
@@ -37,7 +37,7 @@ h1 {
 	float: left;
 	text-align: left;
 	width:300px;
-	font-size: 25px;
+	font-size: 23px;
 	color:#222;
 	margin: -80px 0px 10px 170px;
 	padding: 0;
@@ -47,9 +47,9 @@ h2 {
 	float: left;
 	text-align: center;
 	width:300px;
-	font-size: 15px;
+	font-size: 13px;
 	color:#222;
-	margin: -40px 10px 10px 120px;
+	margin: -40px 10px 10px 110px;
 	padding: 0;
 }
 h3 {
