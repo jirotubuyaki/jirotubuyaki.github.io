@@ -23,7 +23,7 @@ header{
 	float: left;
 	width: 320px;
 	text-align: left;
-	margin: 5px 0px 0px -30px;
+	margin: 5px 0px 0px 0px;
 	padding: 0;
 
 }
@@ -34,7 +34,7 @@ h1 {
 	width:300px;
 	font-size: 22px;
 	color:#222;
-	margin: -80px 0px 10px 160px;
+	margin: -80px 0px 10px 130px;
 	padding: 0;
 }
 h2 {
@@ -44,7 +44,7 @@ h2 {
 	width:300px;
 	font-size: 13px;
 	color:#222;
-	margin: -40px 10px 10px 100px;
+	margin: -40px 10px 10px 70px;
 	padding: 0;
 }
 h3 {
@@ -78,7 +78,7 @@ li{
 .logo {
 	width:130px;
 	height: 130px;
-	margin: 5px 10px -10px 30px;
+	margin: 5px 10px -10px 0px;
 
 }
 .all {
