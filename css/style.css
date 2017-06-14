@@ -4,8 +4,8 @@ html{
 	overflow-y:scroll;
 	overflow-x:hidden;
 	height:100%;
-	width: 100%;
-	margin:0;
+	width: 320px;
+	margin:0 auto;
 	padding: 0;
 	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
 	background-image: url("../images/furley_bg_@2X.png");
@@ -224,6 +224,17 @@ A:hover.on{
 	display: none;
 }
 @media screen and (min-width:800px){
+	html{
+		overflow-y:scroll;
+		overflow-x:hidden;
+		height:100%;
+		width: 800px;
+		margin:0 auto;
+		padding: 0;
+		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
+		background-image: url("../images/furley_bg_@2X.png");
+		background-repeat:repeat;
+	}
 	body{
 		font-family: 'Cantarell', sans-serif;
 		height:100%;
@@ -267,7 +278,7 @@ A:hover.on{
 		padding: 0;
 	}
 	h3 {
-		width:800px;
+		width:760px;
 		font-size: 19px;
 		color:#ccc;
 		margin: 25px 10px 10px 50px;
@@ -431,6 +442,17 @@ A:hover.on{
 	}
 }
 @media screen and (min-width:1200px){
+	html{
+		overflow-y:scroll;
+		overflow-x:hidden;
+		height:100%;
+		width: 1200px;
+		margin:0;
+		padding: 0;
+		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
+		background-image: url("../images/furley_bg_@2X.png");
+		background-repeat:repeat;
+	}
 	body{
 		font-family: 'Cantarell', sans-serif;
 		height:100%;
