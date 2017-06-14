@@ -98,7 +98,7 @@ h3 {
 	display: block;
 	float: center;
 	text-align: center;
-	width:360px;
+	width:320px;
 	height: 2100px;
 	padding: 0px;
 }
@@ -136,7 +136,7 @@ h3 {
 	float: left;
 	text-align: left;
 	width:320px;
-	height: 2000px;
+	height: 2080px;
 	padding: 0px;
 	margin: 0px 0px 0px 0px;
 	/* Background pattern from subtlepatterns.com　https://www.toptal.com/designers/subtlepatterns/ */
@@ -165,8 +165,8 @@ li{
 	text-align: justify;
 	font-size: 13px;
 	color:#aaa;
-	margin: 10px 10px 10px 20px;
-	width:300px;
+	margin: 10px 10px 10px 10px;
+	width:280px;
 	padding: 0;
 }
 A:link{
