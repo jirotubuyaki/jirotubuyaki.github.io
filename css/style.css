@@ -371,8 +371,8 @@ A:hover.on{
 		text-align: justify;
 		font-size: 15px;
 		color:#aaa;
-		margin: 5px 0 5px 50px;
-		width:700px;
+		margin: 5px 50px 5px 50px;
+		width:650px;
 		padding: 0;
 	}
 	A:link{
