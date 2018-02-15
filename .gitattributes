@@ -1,5 +1,6 @@
 createjs/* linguist-vendored
 javascripts/* linguist-vendored
 js/* linguist-vendored
-css/* linguist-vendored
-css2/* linguist-vendored
+contents.html linguist-vendored
+index.html linguist-vendored
+index_en.html linguist-vendored
