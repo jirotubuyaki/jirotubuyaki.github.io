@@ -3,643 +3,520 @@
 html{
 	overflow-y:scroll;
 	overflow-x:hidden;
-	height:100%;
 	width: 100%;
 	margin:0;
 	padding: 0;
-	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-	background-image: url("../images/furley_bg_@2X.png");
-	background-repeat:repeat;
+	background-color: #000;
 }
 body{
-	float: center;
 	font-family: 'Cantarell', sans-serif;
-	height:100%;
-	width: 320px;
-	padding: 0;
-	margin: 13px auto;
+	float: center;
+	width: 100%;
+	background-color: #000;
 }
 header{
-	display: block;
-	float: center;
-	width: 320px;
-	text-align: left;
-	margin: 5px 0px 0px 0p;
-	padding: 0;
-
+	position:relative;
+	top:0px;
+	width: 100%;
+	height: 60px;
+	font: 20px;
+	background-color: #000;
+	color: #fff;
 }
-h1 {
+div#header_logo{
+	display: block;
+	float: left;
+	width: 10%;
+	height: 59px;
+	margin: 1S0px 0px 0px 10px;
+}
+div#header_left{
+	display: block;
+	float: left;
+	width: 90%;
+	height: 59px;
+}
+div#header_right{
+	display: none;
+	float: left;
+	text-align: right;
+	width: 45%;
+	height: 30px;
+	margin-top: 17px;
+}
+div#head{
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+div#head_left{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 40%;
+	margin-top: 75px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+div#head_right{
+	display: block;
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+div#head_space{
+	display: block;
+	float: left;
+	width: 1000px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div#concept{
+	display: block;
+	float: left;
+	font-size: 20px;
+	color:#fff;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+div#comments{
+	position:absolute;
+	z-index: 1;
+	top: 80px;
+	left: 15px;
+	width: 95%;
+}
+img#backimage{
+	display: none;
+}
+img#backimage_2{
+	display: block;
+}
+div#contents{
+	display: block;
+	margin: 0px auto;
+	width: 75%;
+	height: 300px;
+}
+.contents_in{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 180px;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding: 0px;
+	margin-bottom: 60px;
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	width: 100%;
+	background-color: #000;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.foot_right{
+	display: block;
 	float: left;
 	text-align: left;
-	width:300px;
-	font-size: 22px;
-	color:#222;
-	margin: -80px 0px 10px 110px;
+	width: 80%;
+	margin-top: 0px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color: #000;
+}
+.foot_research{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 80%;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-right: 0%;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.line{
+	width:0px;
+	color: #000;
+}
+.line_research{
+	width:0px;
+	color: #000;
+}
+h1 {
+	text-align: left;
+	font-size: 16px;
+	color:#fff;
+	margin: 20px 10px 10px 15px;
 	padding: 0;
 }
 h2 {
 	display: block;
-	float: left;
-	text-align: center;
-	width:300px;
-	font-size: 13px;
-	color:#222;
-	margin: -40px 10px 10px 50px;
+	text-align: left;
+	font-size: 18px;
+	color:#dc143c;
+	margin: 0;
 	padding: 0;
 }
 h3 {
-	width:310px;
 	font-size: 16px;
-	color:#ccc;
-	margin: 25px 5px 10px 5px;
+	text-align: center;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+h4 {
+	font-size: 20px;
+	text-align: left;
+	color:#fff;
+	margin-left:-20px;
 	padding: 0;
 }
 p{
-	text-align: justify;
-	font-size: 13px;
-	color:#aaa;
-	margin: 10px 10px 10px 10px;
-	width:300px;
-	padding: 0;
-}
-ul {
-	list-style-position: inside;
-	list-style: disc;
-	padding-left: 20px;
-}
-li{
-	text-align: justify;
-	font-size: 13px;
-	color:#aaa;
-	margin: 10px 10px 10px 10px;
-	width:280px;
-	padding: 0;
-}
-.logo {
-	width:130px;
-	height: 130px;
-	margin: 5px 10px -10px -20px;
-
-}
-.divnavi {
-	display: none;
-	float: left;
-	text-align: center;
-	width:0px;
-	height: 0px;
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
-}
-.head {
-	display: block;
-	float: center;
-	text-align: center;
-	width:270px;
-	height: 160px;
-	padding: 0px;
-	margin: 0 auto;
-}
-.top {
-	display: block;
-	float: center;
-	text-align: center;
-	width:320px;
-	height:26px;
-	padding: 0px;
-	margin: -20px auto;
-	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-	background-image: url("../images/furley_bg_@2X.png");
-	background-repeat:repeat;
-}
-.line {
-	width:320px;
-	height:2px;
-	margin: 10px 0px 0px 0px;
-	background-color:#ff1493;
-}
-.icon {
-	color: #ff1493;
-	font-size: 10px;
-	margin-right: 5px;
-}
-.contents_in {
-	display: block;
-	float: center;
+	clear: both;
 	text-align: left;
-	width:320px;
-	height: 2180px;
-	padding: 0px;
-	margin: 0 auto;
-	/* Background pattern from subtlepatterns.com　https://www.toptal.com/designers/subtlepatterns/ */
-	background-image: url("../images/grey_wash_wall_@2X.png");
-	background-repeat:repeat;
+	font-size: 15px;
+	color:#fff;
+	margin: 0;
+	padding: 0;
 }
-.divnavi {
-	display: none;
-	float: left;
-	text-align: center;
-	width: 0px;
-	height: 0px;
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+p.contents{
+	clear: both;
+	text-align: justify;
+  	text-justify: auto;
+	font-size: 15px;
+	color:#fff;
+	margin: 0;
+	padding: 0;
 }
-#foot{
+p#foot{
+	color: #fff;
 	text-align: center;
-	font-size: 9px;
-	color:#000;
-	margin: 0 auto;
+	font-size: 13px;
+}
+.button01{
+     display:block;
+     float: left;
+     width: 150px;
+     height:40px;
+     line-height: 35px;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+     background-color: #dc143c; /*ボタン色*/
+     border-radius: 5px; /*角丸*/
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     margin-top: 20px;
+     margin-left: 5px;
+}
+.button01:hover{
+     background-color: #fff;
 }
 A:link{
-	font-size: 10pt; text-decoration:underline; color:#ff1493;
+	font-size: 11pt; text-decoration:underline; color:#fff;
 }
 A:visited{
-	font-size: 10pt; text-decoration:none; color:#ff1493;
+	font-size: 11pt; text-decoration:none; color:#fff;
 }
 A:active{
-	font-size: 10pt; text-decoration:none; color:#ff80c4;
+	font-size: 11pt; text-decoration:none; color:#dc143c;
 }
 A:hover{
-	font-size: 10pt; text-decoration:none; color:#ff80c4;
+	font-size: 11pt; text-decoration:none; color:#dc143c;
 }
-A:link.on{
-	float: left;
+A.navi:link{
 	display: block;
-	color: #ff1493;
+	font-size: 20px;
 	text-align: center;
-	padding: 5px 0px 0px 0px;
-	width: 80px;
-	height: 30px;
-	text-decoration: underline;
-	font-size: 11pt;
-	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-	background-image: url("../images/grey_wash_wall_@2X.png");
-	background-repeat:repeat;
-	border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-	font-size: 10pt; text-decoration:underline; color:#ff1493;
+	margin: 0;
+	padding: 0;
+	text-decoration:underline; color:#000;
 }
-A:visited.on{
-	float: left;
+A.navi:visited{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:none; color:#000;
+}
+A.navi:active{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:none; color:#dc143c;
+}
+A.navi:hover{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:none; color:#dc143c;
+}
+@media screen and (min-width:700px){
+html{
+	overflow-y:scroll;
+	overflow-x:hidden;
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0px auto;
+}
+header{
+	position:fixed;
+	z-index: 2;
+	top:0px;
+	width: 100%;
+	height: 60px;
+	font: 20px;
+	background-color: #000;
+	color: #fff;
+}
+div#header_logo{
 	display: block;
-	color: #ff1493;
-	text-align: center;
-	padding: 5px 0px 0px 0px;
-	width: 80px;
-	height: 30px;
-	text-decoration: underline;
-	font-size: 11pt;
-	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-	background-image: url("../images/grey_wash_wall_@2X.png");
-	background-repeat:repeat;
-	border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-	font-size: 10pt; text-decoration:none; color:#ff1493;
-}
-A:active.on{
 	float: left;
-	display: block;
-	color: #ff1493;
-	text-align: center;
-	padding: 5px 0px 0px 0px;
-	width: 80px;
-	height: 30px;
-	text-decoration: underline;
-	font-size: 11pt;
-	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-	background-image: url("../images/grey_wash_wall_@2X.png");
-	background-repeat:repeat;
-	border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-	font-size: 10pt; text-decoration:none; color:#ff80c4;
+	width: 55px;
+	height: 59px;
+	margin: 10px 0px 5px 10px;
 }
-A:hover.on{
+div#header_left{
+	display: block;
 	float: left;
-	display: block;
-	color: #ff1493;
-	text-align: center;
-	padding: 5px 0px 0px 0px;
-	width: 80px;
-	height: 30px;
-	text-decoration: underline;
-	font-size: 11pt;
-	/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-	background-image: url("../images/grey_wash_wall_@2X.png");
-	background-repeat:repeat;
-	border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-	font-size: 10pt; text-decoration:none; color:#ff80c4;
+	width: 465px;
+	height: 59px;
 }
-#reactive {
+div#header_right{
+	display: block;
+	float: right;
+	text-align: right;
+	width: 140px;
+	height: 30px;
+	margin-top: 17px;
+	margin-right: 10px;
+}
+div#head{
+	display: block;
+	width: 800px;
+	height: 175px;
+	margin: 0px auto;
+	margin-bottom: 0px;
+}
+div#head_left{
+	display: block;
+	float: left;
+	width: 400px;
+	height: 175px;
+	margin-top: 100px;
+	margin-left: 0px;
+}
+div#head_right{
+	display: block;
+	text-align: justify;
+  	text-justify: auto;
+	float: left;
+	width: 400px;
+	height: 175px;
+	margin-top: 130px;
+}
+div#head_space{
+	display: block;
+	float: left;
+	width: 50px;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+div#concept{
+	display: block;
+	float: left;
+	font-size: 40px;
+	color:#fff;
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	background-position: 0pt;
+}
+div#comments{
+	position:absolute;
+	z-index: 1;
+	top: 100px;
+	left: 80px;
+	width: 700px;
+}
+img#backimage{
+	display: block;
+}
+img#backimage_2{
 	display: none;
 }
-@media screen and (min-width:800px){
-	html{
-		overflow-y:scroll;
-		overflow-x:hidden;
-		height:100%;
-		width: 800px;
-		margin:0 auto;
-		padding: 0;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/furley_bg_@2X.png");
-		background-repeat:repeat;
-	}
-	body{
-		font-family: 'Cantarell', sans-serif;
-		height:100%;
-		width: 800px;
-		padding: 0;
-		margin: 13px auto;
-	}
-	header{
-		display: block;
-		float: left;
-		width: 500px;
-		text-align: left;
-		margin: 10px 0px 0px 180px;
-		padding: 0;
-	}
-	h1 {
-		clear: both;
-		float: left;
-		text-align: left;
-		width:300px;
-		font-size: 34px;
-		color:#222;
-		margin: -120px 0px 10px 170px;
-		padding: 0;
-	}
-	h2 {
-		display: block;
-		float: left;
-		text-align: center;
-		width:300px;
-		font-size: 20px;
-		color:#222;
-		margin: -60px 10px 10px 160px;
-		padding: 0;
-	}
-	h3 {
-		width:760px;
-		font-size: 19px;
-		color:#ccc;
-		margin: 25px 10px 10px 50px;
-		padding: 0;
-	}
-	p{
-		text-align: justify;
-		font-size: 15px;
-		color:#aaa;
-		margin: 5px 0 5px 50px;
-		width:700px;
-		padding: 0;
-	}
-	ul {
-		list-style-position: inside;
-		list-style: disc;
-		padding-left: 40px;
-	}
-	li{
-		text-align: justify;
-		font-size: 15px;
-		color:#aaa;
-		margin: 5px 50px 5px 50px;
-		width:650px;
-		padding: 0;
-	}
-	.logo {
-		float: left;
-		width:150px;
-		height: 150px;
-		margin: 0px 0px 0px 0px;
-	}
-	.head {
-		display: block;
-		float: left;
-		text-align: center;
-		width:800px;
-		height: 180px;
-		padding: 0px;
-	}
-	.divnavi {
-		display: none;;
-		float: left;
-		text-align: center;
-		width: 0px;
-		height: 0px;
-		margin: 2px 2px 0px 0px;
-		padding: 0px;
-	}
-	.line {
-		width:800px;
-		height:2px;
-		margin: 20px 0px 50px 0px;
-		background-color: #ff1493;
-	}
-	.icon {
-		color: #ff1493;
-		font-size: 10px;
-		margin-right: 5px;
-	}
-	.contents_in {
-		display: block;
-		float: left;
-		text-align: left;
-		width:800px;
-		height: 2000px;
-		padding: 0px;
-		margin: 0px 0px 0px 0px;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-	}
-	.top{
-		display: block;
-		float: center;
-		text-align: center;
-		width:800px;
-		height:26px;
-		padding: 0px;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/furley_bg_@2X.png");
-		background-repeat:repeat;
-	}
-	#foot{
-		clear: both;
-		text-align: center;
-		font-size: 12px;
-		color:#000;
-	}
-	A:link{
-		font-size: 10pt; text-decoration:underline; color:#ff1493;
-	}
-	A:visited{
-		font-size: 10pt; text-decoration:none; color:#ff1493;
-	}
-	A:active{
-		font-size: 10pt; text-decoration:none; color:#ff80c4;
-	}
-	A:hover{
-		font-size: 10pt; text-decoration:none; color:#ff80c4;
-	}
-	A:link.on{
-		float: left;
-		display: block;
-		color: #ff1493;
-		text-align: center;
-		padding: 5px 0px 0px 0px;
-		width: 120px;
-		height: 30px;
-		text-decoration: underline;
-		font-size: 11pt;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-		border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-		font-size: 10pt; text-decoration:underline; color:#ff1493;
-	}
-	A:visited.on{
-		float: left;
-		display: block;
-		color: #ff1493;
-		text-align: center;
-		padding: 5px 0px 0px 0px;
-		width: 120px;
-		height: 30px;
-		text-decoration: underline;
-		font-size: 11pt;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-		border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-		font-size: 10pt; text-decoration:none; color:#ff1493;
-	}
-	A:active.on{
-		float: left;
-		display: block;
-		color: #ff1493;
-		text-align: center;
-		padding: 5px 0px 0px 0px;
-		width: 120px;
-		height: 30px;
-		text-decoration: underline;
-		font-size: 11pt;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-		border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-		font-size: 10pt; text-decoration:none; color:#ff80c4;
-	}
-	A:hover.on{
-		float: left;
-		display: block;
-		color: #ff1493;
-		text-align: center;
-		padding: 5px 0px 0px 0px;
-		width: 120px;
-		height: 30px;
-		text-decoration: underline;
-		font-size: 11pt;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-		border-radius: 10px 10px 0px 0px / 25px 25px 0px 0px;
-		font-size: 10pt; text-decoration:none; color:#ff80c4;
-	}
-	#reactive {
-		display: block;;
-	}
+.button01{
+     display:block;
+     float: left;
+     width: 143px;
+     height:38px;
+     line-height: 38px;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+     background-color: #dc143c; /*ボタン色*/
+     border-radius: 1px; /*角丸*/
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     margin-top: 25px;
+     margin-left: 10px;
 }
-@media screen and (min-width:1200px){
-	html{
-		overflow-y:scroll;
-		overflow-x:hidden;
-		height:100%;
-		width: 1200px;
-		margin:0 auto;
-		padding: 0;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/furley_bg_@2X.png");
-		background-repeat:repeat;
-	}
-	body{
-		font-family: 'Cantarell', sans-serif;
-		height:100%;
-		width: 1200px;
-		padding: 0;
-		margin: 13px auto;
-	}
-	header{
-		display: block;
-		float: left;
-		width: 350px;
-		height: 280px;
-		text-align: left;
-		margin: 0px;
-		padding: 0;
-	}
-	.head {
-		display: block;
-		float: left;
-		text-align: center;
-		width:258px;
-		height: 600px;
-		padding: 0px;
-	}
-	.divnavi {
-		display: block;
-		float: left;
-		text-align: center;
-		width:120px;
-		height: 120px;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-		margin: 2px 2px 0px 2px;
-		padding: 0px;
-	}
-	h1 {
-		text-align: left;
-		width:350px;
-		font-size: 28px;
-		color:#222;
-		margin: 0px 10px 10px 15px;
-		padding: 0;
-	}
-	h2 {
-		display: block;
-		text-align: left;
-		width:350px;
-		font-size: 18px;
-		color:#222;
-		margin: 0px 10px 10px 17px;
-		padding: 0;
-	}
-	h3 {
-		width:800px;
-		font-size: 17px;
-		color:#ccc;
-		margin: 25px 10px 10px 105px;
-		padding: 0;
-	}
-	p{
-		text-align: justify;
-		font-size: 15px;
-		color:#aaa;
-		margin: 5px 0px 5px 155px;
-		width:600px;
-		padding: 0;
-	}
-	ul {
-	  list-style-position: inside;
-	  list-style: disc;
-	  padding-left: 20px;
-	}
-	li{
-		text-align: justify;
-		font-size: 15px;
-		color:#aaa;
-		margin: 5px 0px 5px 155px;
-		width:600px;
-		padding: 0;
-	}
-	.logo {
-		width:160px;
-		height: 160px;
-		margin: 10px 10px 10px 50px;
-	}
-	.top {
-		display: none;
-		float: left;
-		text-align: center;
-		width:0px;
-		height:0px;
-		padding: 0px;
-		margin: 5px 0px 0px 0px;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/furley_bg_@2X.png");
-		background-repeat:repeat;
-	}
-	.line {
-		width:900px;
-		height:2px;
-		margin: 20px 0px 40px 0px;
-		background-color: #ff1493;
-	}
-	.icon {
-		color: #ff1493;
-		font-size: 10px;
-		margin-right: 5px;
-	}
-	.contents_in {
-		display: block;
-		float: left;
-		text-align: left;
-		width:900px;
-		height: 2150px;
-		padding: 0px;
-		margin: 15px 0px 0px 0px;
-		/* Background pattern from subtlepatterns.com https://www.toptal.com/designers/subtlepatterns/　*/
-		background-image: url("../images/grey_wash_wall_@2X.png");
-		background-repeat:repeat;
-	}
-	#foot{
-		text-align: center;
-		font-size: 12px;
-		color:#000;
-	}
-	A:link{
-		font-size: 10pt; text-decoration:underline; color:#ff1493;
-	}
-	A:visited{
-		font-size: 10pt; text-decoration:none; color:#ff1493;
-	}
-	A:active{
-		font-size: 10pt; text-decoration:none; color:#ff80c4;
-	}
-	A:hover{
-		font-size: 10pt; text-decoration:none; color:#ff80c4;
-	}
-	A:link.navi {
-		display: table-cell;
-		position:relative;
-		text-align:center;
-    vertical-align: middle;
-		width: 120px;
-		height: 120px;
-		font-size: 10pt; text-decoration:underline;
-		color:#ff1493;
-	}
-	A:visited.navi {
-		display: block;
-		text-align:center;
-    vertical-align: middle;
-		width: 120px;
-		height: 120px;
-		font-size: 10pt;
-		text-decoration:underline;
-		color:#ff1493;
-	}
-	A:active.navi {
-		display: table-cell;
-		position:relative;
-		text-align:center;
-    vertical-align: middle;
-		background-color:#ff1493;
-		width: 120px;
-		height: 120px;
-		ration:none;
-		color:#ff1493;
-	}
-	A:hover.navi{
-		display: table-cell;
-		position:relative;
-		text-align:center;
-    vertical-align: middle;
-		background-color:#ff1493;
-		width: 120px;
-		height: 120px;
-		font-size: 10pt;
-		text-decoration:none;
-		color:#fff;
-	}
-	#reactive {
-		display: block;
-	}
+.button01:hover{
+     background-color: #fff;
+}
+h1 {
+	text-align: left;
+	font-size: 17px;
+	color:#fff;
+	margin: 20px 10px 10px 15px;
+	padding: 0;
+}
+h2 {
+	display: block;
+	text-align: left;
+	font-size: 30px;
+	color:#dc143c;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	font-size: 20px;
+	text-align: center;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+h4 {
+	font-size: 20px;
+	text-align: left;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+p{
+	clear: both;
+	font-size: 16px;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+p.contents{
+	clear: both;
+	text-align: justify;
+  	text-justify: auto;
+	font-size: 16px;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+	margin-left: 25px;
+}
+p#foot{
+	color: #fff;
+	text-align: center;
+	font-size: 13px;
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	width: 100%;
+	background-color: #000;
+	margin-top: 25px;
+	margin-bottom: 12px;
+}
+.foot_right{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 15%;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.foot_research{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 95%;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-right: 0%;
+	padding-left: 5%;
+	margin-bottom: 25px;
+}
+.line{
+	width: 100%;
+	color: #fff;
+	margin-left: -5%;
+}
+.line_research{
+	width: 95%;
+	color: #fff;
+	margin-left: 0%;
+	margin-right: 5%;
+}
+A:link{
+	font-size: 12pt; text-decoration:underline; color:#fff;
+}
+A:visited{
+	font-size: 12pt; text-decoration:none; color:#fff;
+}
+A:active{
+	font-size: 12pt; text-decoration:none; color:#dc143c;
+}
+A:hover{
+	font-size: 12pt; text-decoration:none; color:#dc143c;
+}
+
+A.navi:link{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:underline; color:#000;
+}
+A.navi:visited{
+	font-size: 16px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:none; color:#000;
+}
+A.navi:active{
+	font-size: 16px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:none; color:#dc143c;
+}
+A.navi:hover{
+	font-size: 16px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration:none; color:#dc143c;
+}
 }
