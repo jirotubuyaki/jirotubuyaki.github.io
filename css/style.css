@@ -237,10 +237,10 @@ li{
      text-decoration: none;
      text-align: center;
      background-color: #dc143c; /*ボタン色*/
-     border-radius: 5px; /*角丸*/
+     border-radius: 1px; /*角丸*/
      -webkit-transition: all 0.5s;
      transition: all 0.5s;
-     margin-top: 20px;
+     margin-top: 37px;
      margin-left: 5px;
 }
 .button01:hover{
@@ -372,7 +372,7 @@ div#backimage_2{
      border-radius: 1px; /*角丸*/
      -webkit-transition: all 0.5s;
      transition: all 0.5s;
-     margin-top: 25px;
+     margin-top: 35px;
      margin-left: 10px;
 }
 .button01:hover{
@@ -388,11 +388,11 @@ h1 {
 h2 {
 	display: block;
 	text-align: left;
-	font-size: 29px;
+	font-size: 31px;
 	color:#dc143c;
 	margin: 0;
 	margin-top: -10px;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
 	padding: 0;
 }
 h3 {
