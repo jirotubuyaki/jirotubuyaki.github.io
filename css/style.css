@@ -84,17 +84,26 @@ div#concept{
 	padding-left: 0px;
 }
 div#comments{
+	display: none;
 	position:absolute;
 	z-index: 1;
-	top: 80px;
+	top: 100px;
 	left: 15px;
 	width: 95%;
 }
 img#backimage{
 	display: none;
 }
-img#backimage_2{
+#backimage_2{
 	display: block;
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-image: url("../images/blur-1788144_1920.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+
 }
 div#contents{
 	display: block;
@@ -147,12 +156,14 @@ footer{
 	margin-bottom: 20px;
 }
 .line{
-	width:0px;
+	width:100%;
 	color: #000;
+	margin-left: -20px;
 }
 .line_research{
-	width:0px;
+	width:100%;
 	color: #000;
+	margin-left: -20px;
 }
 h1 {
 	text-align: left;
@@ -269,7 +280,7 @@ A.navi:hover{
 	padding: 0;
 	text-decoration:none; color:#dc143c;
 }
-@media screen and (min-width:700px){
+@media screen and (min-width:730px){
 html{
 	overflow-y:scroll;
 	overflow-x:hidden;
@@ -302,7 +313,7 @@ div#header_logo{
 div#header_left{
 	display: block;
 	float: left;
-	width: 465px;
+	width: 500px;
 	height: 59px;
 }
 div#header_right{
@@ -352,11 +363,12 @@ div#concept{
 	color:#fff;
 	width: 100%;
 	margin-top: 60px;
-	margin-bottom: 0px;
+	margin-bottom: 25px;
 	padding-left: 0px;
 	background-position: 0pt;
 }
 div#comments{
+	display: block;
 	position:absolute;
 	z-index: 1;
 	top: 100px;
@@ -366,7 +378,7 @@ div#comments{
 img#backimage{
 	display: block;
 }
-img#backimage_2{
+div#backimage_2{
 	display: none;
 }
 .button01{
