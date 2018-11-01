@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jirotubuyaki.github.io/</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/traffic.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/pysics.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/fish.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/flower/flower_motion.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/flower/flower_random.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/clock/index.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/path/index6_pc_time.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/tree.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/grid.html</loc>
+  <lastmod>2018-11-01T13:38:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/hmds/</loc>
+  <lastmod>2016-11-25T17:00:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
