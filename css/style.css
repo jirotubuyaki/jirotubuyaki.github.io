@@ -125,7 +125,7 @@ div#contents{
 footer{
 	clear: both;
 	text-align: center;
-	font-size: 14px;
+	font-size: 11px;
 	color:#fff;
 	width: 100%;
 	background-color: #000;
@@ -241,16 +241,16 @@ li{
      background-color: #fff;
 }
 A:link{
-	font-size: 11pt; text-decoration:underline; color:#fff;
+	font-size: 15px; text-decoration:underline; color:#fff;
 }
 A:visited{
-	font-size: 11pt; text-decoration:none; color:#fff;
+	font-size: 15px; text-decoration:none; color:#fff;
 }
 A:active{
-	font-size: 11pt; text-decoration:none; color:#dc143c;
+	font-size: 15px; text-decoration:none; color:#dc143c;
 }
 A:hover{
-	font-size: 11pt; text-decoration:none; color:#dc143c;
+	font-size: 15px; text-decoration:none; color:#dc143c;
 }
 @media screen and (min-width:730px){
 html{
@@ -470,15 +470,15 @@ footer{
 	margin-right: 5%;
 }
 A:link{
-	font-size: 12pt; text-decoration:underline; color:#fff;
+	font-size: 15px; text-decoration:underline; color:#fff;
 }
 A:visited{
-	font-size: 12pt; text-decoration:none; color:#fff;
+	font-size: 15px; text-decoration:none; color:#fff;
 }
 A:active{
-	font-size: 12pt; text-decoration:none; color:#dc143c;
+	font-size: 15px; text-decoration:none; color:#dc143c;
 }
 A:hover{
-	font-size: 12pt; text-decoration:none; color:#dc143c;
+	font-size: 15px; text-decoration:none; color:#dc143c;
 }
 }
