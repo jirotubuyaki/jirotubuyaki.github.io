@@ -107,6 +107,7 @@ img#backimage{
 }
 div#contents{
 	display: block;
+	text-align: left;
 	margin: 0px auto;
 	width: 75%;
 	height: 300px;
