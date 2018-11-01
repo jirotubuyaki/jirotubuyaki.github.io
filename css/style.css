@@ -205,6 +205,10 @@ p#foot{
 	text-align: center;
 	font-size: 13px;
 }
+li{
+	margin-left: 25px;
+	font-size: 14px;
+}
 .button01{
      display:block;
      float: left;
@@ -434,6 +438,10 @@ p#foot{
 	color: #fff;
 	text-align: center;
 	font-size: 13px;
+}
+li{
+	margin-left: 25px;
+	font-size: 14px;
 }
 footer{
 	clear: both;
