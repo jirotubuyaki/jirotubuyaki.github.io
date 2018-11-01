@@ -219,7 +219,7 @@ p#foot{
 }
 li{
 	margin-left: 25px;
-	font-size: 14px;
+	font-size: 15px;
 }
 .button01{
      display:block;
@@ -251,35 +251,6 @@ A:active{
 }
 A:hover{
 	font-size: 11pt; text-decoration:none; color:#dc143c;
-}
-A.navi:link{
-	display: block;
-	font-size: 20px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:underline; color:#000;
-}
-A.navi:visited{
-	font-size: 20px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:none; color:#000;
-}
-A.navi:active{
-	font-size: 20px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:none; color:#dc143c;
-}
-A.navi:hover{
-	font-size: 20px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:none; color:#dc143c;
 }
 @media screen and (min-width:730px){
 html{
@@ -509,35 +480,5 @@ A:active{
 }
 A:hover{
 	font-size: 12pt; text-decoration:none; color:#dc143c;
-}
-
-A.navi:link{
-	display: block;
-	font-size: 16px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:underline; color:#000;
-}
-A.navi:visited{
-	font-size: 16px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:none; color:#000;
-}
-A.navi:active{
-	font-size: 16px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:none; color:#dc143c;
-}
-A.navi:hover{
-	font-size: 16px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration:none; color:#dc143c;
 }
 }
