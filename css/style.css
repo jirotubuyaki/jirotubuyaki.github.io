@@ -6,7 +6,9 @@ html{
 	width: 100%;
 	margin:0;
 	padding: 0;
-	background-color: #000;
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url(../images/grey_wash_wall_@2X.png);
+	background-repeat: repeat;
 }
 body{
 	font-family: 'Cantarell', sans-serif;
@@ -23,10 +25,8 @@ header{
 	width: 100%;
 	height: 60px;
 	font: 20px;
-	/* Background pattern from Toptal Subtle Patterns */
-	background-image: url(../images/grey_wash_wall_@2X.png);
-	background-repeat: repeat;
 	color: #fff;
+	background-color: rgba(0, 0, 0, 0.65);
 }
 div#header_logo{
 	display: block;
@@ -327,7 +327,6 @@ header{
 	width: 100%;
 	height: 60px;
 	font: 20px;
-	background-color: #000;
 	color: #fff;
 	background-color: rgba(0, 0, 0, 0.65);
 }
