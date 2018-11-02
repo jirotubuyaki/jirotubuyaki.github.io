@@ -26,14 +26,14 @@ header{
 div#header_logo{
 	display: block;
 	float: left;
-	width: 40px;
-	height: 40px;
-	margin: 5px 0px 0px 5px;
+	width: 30px;
+	height: 30px;
+	margin: 5px 0px 0px 0px;
 }
 div#header_left{
 	display: block;
 	float: left;
-	width: 80%;
+	width: 90%;
 	height: 60px;
 }
 div#header_right{
@@ -133,7 +133,7 @@ footer{
 	margin-bottom: 20px;
 }
 .foot_right{
-	display: block;
+	display: none;
 	float: left;
 	text-align: left;
 	font-size: 15px;
@@ -147,6 +147,33 @@ footer{
 	background-color: #000;
 }
 .foot_research{
+	display: none;
+	float: left;
+	text-align: left;
+	font-size: 15px;
+	width: 98%;
+	margin-top: 0px;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-right: 0%;
+	padding-left: 0px;
+	margin-bottom: 20px;
+}
+.foot_right_mobile{
+	display: block;
+	float: left;
+	text-align: left;
+	font-size: 15px;
+	width: 98%;
+	margin-top: 0px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-left: 1%;
+	margin-right: 1%
+	margin-bottom: 20px;
+	background-color: #000;
+}
+.foot_research_mobile{
 	display: block;
 	float: left;
 	text-align: left;
@@ -209,8 +236,6 @@ p{
 }
 p.contents{
 	clear: both;
-	text-align: justify;
-  	text-justify: auto;
 	font-size: 15px;
 	color:#fff;
 	margin: 0;
@@ -348,8 +373,6 @@ div#head_left{
 }
 div#head_right{
 	display: block;
-	text-align: justify;
-  	text-justify: auto;
 	float: left;
 	width: 400px;
 	height: 175px;
@@ -468,8 +491,6 @@ p{
 }
 p.contents{
 	clear: both;
-	text-align: justify;
-  	text-justify: auto;
 	font-size: 16px;
 	color:#fff;
 	margin: 0;
@@ -508,6 +529,28 @@ footer{
 }
 .foot_research{
 	display: block;
+	float: left;
+	text-align: left;
+	width: 96%;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-bottom: 25px;
+}
+.foot_right_mobile{
+	display: none;
+	float: left;
+	text-align: left;
+	width: 21%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.foot_research_mobile{
+	display: none;
 	float: left;
 	text-align: left;
 	width: 96%;
