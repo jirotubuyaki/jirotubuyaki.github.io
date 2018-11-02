@@ -89,9 +89,14 @@ div#concept_in{
 	font-size: 20px;
 	color:#fff;
 	width: 100%;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-left: 0px;
+	margin: 0 auto;
+}
+div#concept_in_button{
+	display: block;
+	font-size: 20px;
+	color:#fff;
+	width: 320px;
+	margin: 0 auto;
 }
 div#comments{
 	display: none;
@@ -231,7 +236,7 @@ li{
 .button01{
      display:block;
      float: left;
-     width: 34%;
+     width: 147px;
      height:40px;
      line-height: 35px;
      color: #FFF;
@@ -242,8 +247,8 @@ li{
      -webkit-transition: all 0.5s;
      transition: all 0.5s;
      margin-top: 37px;
-     margin-left: 10%;
-     margin-right: 5%;
+     margin-left: 0px;
+     margin-right: 10px;
 }
 .button01:hover{
      background-color: #fff;
@@ -251,7 +256,7 @@ li{
 .button02{
      display:block;
      float: left;
-     width: 34%;
+     width: 147px;
      height:40px;
      line-height: 35px;
      color: #FFF;
@@ -262,8 +267,8 @@ li{
      -webkit-transition: all 0.5s;
      transition: all 0.5s;
      margin-top: 37px;
-     margin-left: 5%;
-    	margin-right: 10%;
+     margin-left: 10px;
+    	margin-right: 0px;
 }
 .button02:hover{
      background-color: #fff;
