@@ -83,6 +83,16 @@ div#concept{
 	margin-bottom: 0px;
 	padding-left: 0px;
 }
+div#concept_in{
+	display: block;
+	float: left;
+	font-size: 20px;
+	color:#fff;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
 div#comments{
 	display: none;
 	position:absolute;
@@ -167,6 +177,7 @@ h2 {
 	font-size: 18px;
 	color:#dc143c;
 	margin: 0;
+	margin-left: 5%;
 	padding: 0;
 }
 h3 {
@@ -205,6 +216,10 @@ p#foot{
 	text-align: center;
 	font-size: 13px;
 }
+p#concept_words{
+	font-size: 15px;
+	margin-left: 7%;
+}
 ul{
 	margin-left: 0px;
 	font-size: 15px;	
@@ -216,7 +231,7 @@ li{
 .button01{
      display:block;
      float: left;
-     width: 150px;
+     width: 34%;
      height:40px;
      line-height: 35px;
      color: #FFF;
@@ -227,9 +242,30 @@ li{
      -webkit-transition: all 0.5s;
      transition: all 0.5s;
      margin-top: 37px;
-     margin-left: 5px;
+     margin-left: 10%;
+     margin-right: 5%;
 }
 .button01:hover{
+     background-color: #fff;
+}
+.button02{
+     display:block;
+     float: left;
+     width: 34%;
+     height:40px;
+     line-height: 35px;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+     background-color: #dc143c; /*ボタン色*/
+     border-radius: 1px; /*角丸*/
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     margin-top: 37px;
+     margin-left: 5%;
+    	margin-right: 10%;
+}
+.button02:hover{
      background-color: #fff;
 }
 A:link{
@@ -335,9 +371,10 @@ div#comments{
 	display: block;
 	position:absolute;
 	z-index: 1;
-	top: 100px;
-	left: 80px;
+	top: 4%;
+	left: 5%;
 	width: 700px;
+	margin-top: 60px;
 }
 img#backimage{
 	display: block;
@@ -360,8 +397,29 @@ div#backimage_2{
      transition: all 0.5s;
      margin-top: 35px;
      margin-left: 10px;
+     margin-right: 0px;
 }
 .button01:hover{
+     background-color: #fff;
+}
+.button02{
+     display:block;
+     float: left;
+     width: 143px;
+     height:38px;
+     line-height: 38px;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+     background-color: #dc143c; /*ボタン色*/
+     border-radius: 1px; /*角丸*/
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     margin-top: 35px;
+     margin-left: 10px;
+     margin-right: 0px;
+}
+.button02:hover{
      background-color: #fff;
 }
 h1 {
