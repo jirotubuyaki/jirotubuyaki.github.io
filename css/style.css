@@ -28,7 +28,7 @@ div#header_logo{
 	float: left;
 	width: 10%;
 	height: 59px;
-	margin: 1S0px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
 }
 div#header_left{
 	display: block;
@@ -40,9 +40,9 @@ div#header_right{
 	display: none;
 	float: left;
 	text-align: right;
-	width: 45%;
+	width: 0%;
 	height: 30px;
-	margin-top: 17px;
+	margin-top: 0px;
 }
 div#head{
 	display: block;
@@ -69,7 +69,7 @@ div#head_right{
 div#head_space{
 	display: block;
 	float: left;
-	width: 1000px;
+	width: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -99,28 +99,11 @@ img#backimage{
 	width: 100%;
 	height: 220px;
 	margin-top: 40px;
-	margin-left: 10px;
+	margin-left: 0px;
 	background-image: url("../images/concept_main_mobile.jpg");
 	background-repeat: no-repeat;
 	background-position: center middle;
 
-}
-div#contents{
-	display: block;
-	text-align: left;
-	margin: 0px auto;
-	width: 75%;
-	height: 300px;
-}
-.contents_in{
-	display: block;
-	float: left;
-	width: 100%;
-	height: 180px;
-	margin-left: 4%;
-	margin-right: 4%;
-	padding: 0px;
-	margin-bottom: 60px;
 }
 footer{
 	clear: both;
