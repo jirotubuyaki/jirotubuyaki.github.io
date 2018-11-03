@@ -153,6 +153,19 @@ footer{
 	margin-right: 1%
 	margin-bottom: 20px;
 }
+.foot_right_in{
+	display: block;
+	float: left;
+	text-align: left;
+	font-size: 15px;
+	width: 320px;
+	margin-top: 0px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-left: 17px;
+	margin-right: 0%
+	margin-bottom: 0px;	
+}
 .foot_research{
 	display: none;
 	float: left;
@@ -524,6 +537,19 @@ footer{
 	margin-bottom: 20px;
 	padding-right: 2%;
 	padding-left: 2%;
+}
+.foot_right_in{
+	display: block;
+	float: left;
+	text-align: left;
+	font-size: 15px;
+	width: 100%;
+	margin-top: 0px;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-left: 0%;
+	margin-right: 0%
+	margin-bottom: 0px;	
 }
 .foot_research{
 	display: block;
