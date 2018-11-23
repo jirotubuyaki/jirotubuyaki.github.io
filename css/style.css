@@ -6,17 +6,12 @@ html{
 	width: 100%;
 	margin:0;
 	padding: 0;
-	/* Background pattern from Toptal Subtle Patterns */
-	background-image: url(../images/grey_wash_wall_@2X.png);
-	background-repeat: repeat;
 }
 body{
 	font-family: 'Cantarell', sans-serif;
 	float: center;
 	width: 100%;
-	background-color: #000;
-	/* Background pattern from Toptal Subtle Patterns */
-	background-image: url(../images/grey_wash_wall_@2X.png);
+	background-image: url("../images/concept_main_mobile.jpg");
 	background-repeat: repeat;
 }
 header{
@@ -121,9 +116,9 @@ img#backimage{
 	margin-top: 5px;
 	margin-left: 0px;
 	/* Background pattern from Toptal Subtle Patterns */
-	background-image: url("../images/concept_main_mobile.jpg");
+	/*background-image: url("../images/concept_main_mobile.jpg");
 	background-repeat: no-repeat;
-	background-position: center middle;
+	background-position: center middle;*/
 
 }
 footer{
@@ -133,8 +128,8 @@ footer{
 	color:#fff;
 	width: 100%;
 	/* Background pattern from Toptal Subtle Patterns */
-	background-image: url(../images/grey_wash_wall_@2X.png);
-	background-repeat: repeat;
+	/*background-image: url(../images/grey_wash_wall_@2X.png);
+	background-repeat: repeat;*/
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -263,7 +258,7 @@ ul{
 }
 li{
 	margin-left: 17px;
-	margin-right: 17px;
+	margin-right: 18px;
 	font-size: 14px;
 }
 .button01{
@@ -596,5 +591,32 @@ A:active{
 }
 A:hover{
 	font-size: 15px; text-decoration:none; color:#dc143c;
+}
+}
+@media screen and (min-width:1800px){
+	html{
+	overflow-y:scroll;
+	overflow-x:hidden;
+	width: 1800px;
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0px auto;
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url(../images/grey_wash_wall_@2X.png);
+	background-repeat: repeat;
+}
+header{
+	position:fixed;
+	z-index: 2;
+	top:0px;
+	width: 1800px;
+	height: 60px;
+	font: 20px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.65);
 }
 }
