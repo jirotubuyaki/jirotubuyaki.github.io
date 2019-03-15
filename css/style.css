@@ -171,6 +171,9 @@ p.contents{
 	margin: 0;
 	padding: 0;
 }
+.image_49{
+	width: 49%;
+}
 ul{
 	margin-left: 0px;
 	font-size: 12px;	
@@ -353,6 +356,13 @@ p#foot{
 	color: #333;
 	text-align: center;
 	font-size: 13px;
+}
+.image_49{
+	width: 49%;
+}
+ul{
+	margin-left: 0px;
+	font-size: 12px;	
 }
 li{
 	margin-left: 25px;
