@@ -57,11 +57,13 @@ header{
 }
 #contents{
 	clear: both;
+	height: 420px;
 	width: 320px;
 	margin: 50px auto;
 	padding: 0px;
 }
 footer{
+	clear:both;
 	display: block;
 	text-align: center;
 	font-size: 11px;
@@ -253,6 +255,7 @@ A:hover{
 	}
 	#contents{
 		clear: both;
+		height:500px;
 		width: 800px;
 		margin: 0px auto;
 		padding: 0px;
