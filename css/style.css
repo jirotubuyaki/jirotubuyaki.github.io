@@ -62,6 +62,13 @@ header{
 	margin: 50px auto;
 	padding: 0px;
 }
+#contents_about{
+	clear: both;
+	height: 420px;
+	width: 2200px;
+	margin: 50px auto;
+	padding: 0px;
+}
 footer{
 	clear:both;
 	display: block;
@@ -256,6 +263,13 @@ A:hover{
 	#contents{
 		clear: both;
 		height:500px;
+		width: 800px;
+		margin: 0px auto;
+		padding: 0px;
+	}
+	#contents_about{
+		clear: both;
+		height:1800px;
 		width: 800px;
 		margin: 0px auto;
 		padding: 0px;
