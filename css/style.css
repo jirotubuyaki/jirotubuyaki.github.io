@@ -57,7 +57,7 @@ header{
 }
 #contents{
 	clear: both;
-	height: 620px;
+	height: 720px;
 	width: 320px;
 	margin: 50px auto;
 	padding: 0px;
@@ -262,7 +262,7 @@ A:hover{
 	}
 	#contents{
 		clear: both;
-		height:500px;
+		height:600px;
 		width: 800px;
 		margin: 0px auto;
 		padding: 0px;
