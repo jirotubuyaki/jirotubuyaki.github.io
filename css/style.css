@@ -57,14 +57,14 @@ header{
 }
 #contents{
 	clear: both;
-	height: 720px;
+	height: auto;
 	width: 320px;
 	margin: 50px auto;
 	padding: 0px;
 }
 #contents_about{
 	clear: both;
-	height: 2200px;
+	height: auto;
 	width: 320px;
 	margin: 50px auto;
 	padding: 0px;
@@ -262,14 +262,14 @@ A:hover{
 	}
 	#contents{
 		clear: both;
-		height:600px;
+		height:auto;
 		width: 800px;
 		margin: 0px auto;
 		padding: 0px;
 	}
 	#contents_about{
 		clear: both;
-		height:1800px;
+		height:auto;
 		width: 800px;
 		margin: 0px auto;
 		padding: 0px;
