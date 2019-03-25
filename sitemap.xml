@@ -9,128 +9,123 @@
 
 <url>
   <loc>https://jirotubuyaki.github.io/</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/index.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/software.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/about.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/CRPClustering.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/Jdmbs.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/CRPClusteringIO.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/traffic_in.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/pysics.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/fish.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/flower_motion.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/flower_random.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/clock.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/world.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/tree.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/softwares/grid.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/about.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/traffic_in.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/pysics.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/fish.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/flower/flower_motion.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/flower/flower_random.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/createjs/clock/index.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/tree.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jirotubuyaki.github.io/flash/grid.html</loc>
+  <lastmod>2019-03-25T15:47:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://jirotubuyaki.github.io/hmds/</loc>
   <lastmod>2016-11-25T17:00:34+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/flash/traffic_in.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/flash/pysics.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/flash/fish.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/createjs/flower/flower_motion.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/createjs/flower/flower_random.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/createjs/clock/index.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/flash/tree.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://jirotubuyaki.github.io/flash/grid.html</loc>
-  <lastmod>2019-03-15T16:54:43+00:00</lastmod>
-  <priority>0.51</priority>
 </url>
 
 
