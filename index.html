@@ -2,8 +2,8 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>オカダアルゴリズムのリポジトリ</title>
-	<meta name="description" content="ベイジアンや確率解析・アルゴリズムなどの数学とコンピュータ・サイエンスを応用して、社会に新しい付加価値を発明します。">
+	<title>アルファメソッド alpha methods</title>
+	<meta name="description" content="ベイジアンや確率解析・アルゴリズムなどの数学とコンピュータ・サイエンスを応用して、金融領域において超過利益「アルファ」を獲得する方法論を開発します。">
 	<meta name="viewport" content="maximum-scale=2.0,width=device-width,initial-scale=1.0,user-scalable=yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="robots" content="all">
@@ -11,9 +11,13 @@
 	<meta name="keywords" content="ベイズ,ノンパラメトリックベイズ,ベイジアン,確率解析,アルゴリズム,数理ファイナンス,統計学,人工知能,機械学習,R,Scala,UNIX,MySQL,JavaScript">
 	<link rel=StyleSheet href="./css/reset.css">
 	<link rel=StyleSheet href="./css/style.css">
+	<link href="./css/lightbox.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon.ico">
-	<script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3866453-10"></script>
+	 <script src="./js/lightbox-plus-jquery.min.js"></script>
+<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -21,72 +25,138 @@
 	ga('create', 'UA-3866453-9', 'auto');
 	ga('send', 'pageview');
 	</script>
+	<script>
+	    lightbox.option({
+	      'resizeDuration': 200,
+	      'wrapAround': true
+	    })
+	</script>
 </head>
-<body>
+<body> 
 	<header>
-		<img id="logo" src="./images/logo.png" alt="ロゴ">
 		<br>
-		<img id="name" src="./images/name.png" alt="オカダアルゴリズム">
-		<h2>My Journey about R&D</h2>
+		<a href="./index.html"><img id="name" src="./images/prefund.png" alt="alpha methods"></a>
 	</header>
-	<div id="concept"></div>
-	<ul class="nav">
-		<li><a href="index.html">Home</a></li>
-		<li>
-			<a href="#navi">Softwares</a>
-			<ul>
-				<li><a href="#navi">Softwares</a>
-					<ul>
-						<li><a href="./softwares/CRPClustering.html">CRPClustering</a></li>
-						<li><a href="./softwares/Jdmbs.html">Jdmbs</a></li>
-						<li><a href="./softwares/CRPClusteringIO.html">PredictionIO CRP</a></li>				
-					</ul>
-				</li>
-				<li><a href="#navi">Simulators</a>
-					<ul>
-						<li><a href="./softwares/traffic_in.html">Traffic I</a></li>
-						<li><a href="./softwares/pysics.html">Pysics</a></li>
-						<li><a href="./softwares/fish.html">Fishs</a></li>
-					</ul>
-				</li>
-				<li><a href="#navi">Animations</a>
-					<ul>
-						<li><a href="./softwares/flower_motion.html">Flower</a></li>
-						<li><a href="./softwares/flower_random.html">Random Flowers</a></li>
-						<li><a href="./softwares/clock.html">Clock</a></li>
-						<li><a href="./softwares/world.html">Half World</a></li>
-						<li><a href="./softwares/tree.html">Tree</a></li>
-						<li><a href="./softwares/grid.html">Grid</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-		<li><a href="about.html">About</a></li>
-	</ul>
 	<div id="contents">
-		<div class="contents_research">
-			<h4>Softwares New Release</h4>
-			<hr class="line_research">
-			<div id="contents_navi">
-				<ul>
-					<li><a href="./softwares/CRPClustering.html">CRPClustering</a></li>
-				</ul>
+		<div class='wave -one'></div>
+		<div class='wave -two'></div>
+		<div class='wave -three'></div>
+		<div class="contents_topic">
+			<img class="topic" src="./images/vision.png" alt="vision">
+			<hr class="line">
+			<h1>金融市場における超過利益[α]を獲得する方法[methods]を開発します。</h1>
+			<div class="contents_in">
+					<br>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;機械学習理論の発達によって、コンピュータ上に知能を実現する科学技術が実用に近づいています。知能を表現するための数学は、柔らかく適用範囲を広げ、インターネットの上から社会を包み込もうとしています。私達は、最新の数理・コンピューティング理論を応用したアルファ探索ツールのの開発を目指しています。道のりは困難で、ブレークスルーには時間が必要かもしれません。でも、その知的探求と開発の過程を楽しみ尽くし、努力を怠らず、それは一つの旅のように景色を楽しみながら歩んでいきます。私達のメソッドが顧客の新しい発見に貢献できれば光栄です。</p>
+					<img id="concept" src="./images/ai.png" alt="explanation">
+					<p>
+						&nbsp;&nbsp;&nbsp;&nbsp;機械学習技術により、人の隣に寄り添いながら、重要な知見を発見するソフトウェア・数学ツールの研究・開発を行います。
+					</p>
+					<br>
+				</div>
+		</div>
+		<div class="contents_topic">
+			<img class="topic" src="./images/new.png" alt="new release">
+			<hr class="line">
+			<h2>CRPClustering: An R Package for Bayesian Nonparametric Chinese Restaurant Process Clustering with Entropy </h2>
+			<div class="contents_in">
 				<br>
+				[New Version 1.4]
+				<br>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Clustering is a scientific method which finds the clusters of data and many related methods are traditionally researched. Bayesian nonparametrics is statistics which can treat models having infinite parameters. Chinese restaurant process is used in order to compose Dirichlet process. The clustering which uses Chinese restaurant process does not need to decide the number of clusters in advance. This algorithm automatically adjusts it. Then, this package can calculate clusters in addition to entropy as the ambiguity of clusters.</p>
+				<br>
+				<a href="./images/image_2.png" data-lightbox="image-1" data-title="１０次元データのクラスタリング結果"><img class="image_49" src="./images/image_2.png" alt="クラスタリング結果"></a>
+				<a href="./images/image_1.png" data-lightbox="image-1" data-title="データのクラスタ密度"><img class="image_49" src="./images/image_1.png" alt="クラスタ密度"></a>
+				<br>
+				<p>左図は、１０次元データのクラスタリング結果。右図はデータのクラスタ密度。（画像をタップで拡大）</p>
+				<div class="download">
+					<a href="https://github.com/jirotubuyaki/CRPClustering" target="_blank"><img class="github" src="./images/download_back.png" alt="download"></a>
+				</div>
+
 			</div>
-			<div id="contents_in">
-				<h5>ノンパラメトリックベイズによるクラスタリングをScalaで実装したＲパッケージ。</h5>
-				<p>&nbsp;&nbsp;ノンパラメトリックベイズは1970年代に提案され、２０００年以降、盛んに研究されるようになりました。ノンパラメトリックベイズによるクラスタリングは、前もってデータのクラスタ数を指定する必要がなく、データの分布の仕方によって、自動的にクラスタ数を調整しながら推定します。推定方法は、ＭＣＭＣ（マルコフチェーンモンテカルロ法）を用い、繰り返しシミュレーションを行いながら、推定結果を求めます。プログラムはRとScalaで実装しました。ＲのパッケージリポジトリであるＣＲＡＮとGitHubで公開しています。最新バージョンは、GitHubで公開しているVer.3です。</p>
+			<br>
+			<hr class="line">
+			<h2>Jdmbs: An R Package for Monte Carlo Option Pricing Algorithm for Jump Dif fusion Models with Correlational Companies </h2>
+			<div class="contents_in">
 				<br>
-				<img class="image_49" src="./images/image_2.png" alt="クラスタリング結果">
-				<img class="image_49" src="./images/image_1.png" alt="クラスタ密度">
+				[New Version 1.4]
 				<br>
-				<p>左図は、１０次元データのクラスタリング結果。右図はデータのクラスタ密度。</p>
-				<a href="https://github.com/jirotubuyaki/CRPClustering" target="_blank">GItHubでソースコードを公開しています。>></a>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Option is a one of the financial derivatives and its pricing is an important problem in practice. The process of stock prices are basically represented as Geometric Brownian motion or jump diffusion processes. In this package, algorithms and visualizations are implemented in order to calculate option price and plot its result. The implimented algorithms are Monte Carlo method for three equations. The first one is Geometric Brownian motion and the second is jump diffusion processes and furthermore a model that presents jumps among companies affect each other.</p>
+				<br>
+				<a href="./images/Rplot.png" data-lightbox="image-1" data-title="幾何ブラウン運動"><img class="image_49" src="./images/Rplot.png" alt=""></a>
+				<a href="./images/Rplot01.png" data-lightbox="image-1" data-title="ジャンプ過程"><img class="image_49" src="./images/Rplot01.png" alt="ジャンプ過程"></a>
+				<br>
+				<p>図は、幾何ブラウン運動（画像をタップで拡大）</p>
+				<div class="download">
+					<a href="https://github.com/jirotubuyaki/Jdmbs" target="_blank"><img class="github" src="./images/download_back.png" alt="download"></a>
+				</div>
 
 			</div>
 			<br>
 		</div>
+		<br>
+		<div class=contents_topic>
+			<img class="topic" src="./images/softwares.png" alt="new release">
+			<hr class="line">
+			<div class="contents_in">
+				<div><a href="Jdmbs.html"><img class="softs" src="./images/Jdmbs.png" alt="Jdmbs R package"></a>
+					<a href="CRPClustering.html"><img class="softs" src="./images/CRPClustering.png" alt="CRPClustering R package" ></a>
+					<a href="CRPClusteringIO.html"><img class="softs" src="./images/CRPClusteringIO.png" alt="CRPClustering PredictionIO Template"></a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="contents_topic">
+			<img class="topic" src="./images/contact.png" alt="vision">
+			<hr class="line">
+			<div class="contents_in">
+				<p>岡田 匡司（Masashi OKADA）&nbsp; <a href="https://github.com/jirotubuyaki" target="_blank"><img src="./images/github.png" alt="github"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/masashi.okada.79" target="_blank"><img src="./images/facebook.png" alt="facebook"></a><img src="./images/myself.jpeg" width="140px" align="right"><br>
+				Japan, Shizuoka City.<br>
+				<br>
+				Education<br>
+				2002 Okayama University <br>Engineering div. System Engineering course.<br>
+				<br>
+				Job<br>
+				 2002 - 2010<br> Mondial Co., Ltd.: Shizuoka, JP<BR> Engineer (System Development)</small><br>
+				<br>
+				2010 - 2011<br> National Research Institute of Far Seas Fisheries: Shizuoka, JP  <BR> Research Assistant & Associate Researcher
+
+				<br>
+				<br>
+				<h5>合理的な予測の科学技術と不確かさの制御に関心があります。</h5>
+				<br>
+				<p>
+				機械学習理論・確率解析を応用した数学的な道具とソフトウェアの開発を目指しています。<br>
+				できれば、多くの方に使っていただける実用的な道具の開発によって、社会に貢献したいと考えています。
+				</p>
+
+				<p>興味：</p>
+				<ul>
+					<li>ベイジアン</li>
+					<li>ベイズ深層学習</li>
+					<li>確率解析</li>
+					<li>プログラミング （最近は、ScalaとR）</li>
+				</ul>
+				<br>
+				<p>研究テーマ：</p>
+				<ul>
+					<li>ノンパラメトリックベイズの金融工学への応用</li>
+					<li>ベイズ深層学習の金融工学への応用</li>
+					<li>デリバティブの価格付け</li>
+					<li>ディリクレ過程周辺</li>
+					<li>機械学習・確率解析を応用したソフトウェア</li>
+				</ul>
+				<br>
+				<h5>少し自分の事を。</h5>
+				<br>
+				<p>&nbsp;&nbsp;大学時代は、工業系の数学とプログラミング。
+その後、黎明期のインターネットが面白く、知的システムや知能ソフトウェア、数学はベイジアンに時間を費やす。プログラミングが少なくなるに連れて、数学が多くなり、数理的なソフトウェアを書くことが多くなっています。</p>
+				<br>
+				</p>
+
+			</div>
+		</div>
 	</div>
-	<footer>Copyright &copy; Okada Algorithm All Rights Reserved.</footer>
+	<footer>Copyright &copy; Alpha methods All Rights Reserved.</footer>
 </body>
 </html>
