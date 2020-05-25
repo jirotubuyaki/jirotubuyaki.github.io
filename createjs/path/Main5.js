@@ -42,8 +42,8 @@
 			center_y = stage.canvas.height/2;
 
 
-				vertices = d3.range(2200).map(function(d) {
-					var r = 400;
+				vertices = d3.range(500).map(function(d) {
+					var r = 200;
 					var angle_height = Math.random()*360;
 					var angle = Math.random()*360;
   					return [
@@ -127,7 +127,7 @@
 			for(var i=0;i<point_z_3_arry_mem.length;i++){
 				var shape = new createjs.Shape();
     			shape.graphics.setStrokeStyle(0.5);
-    			shape.graphics.beginStroke("#999");
+    			shape.graphics.beginStroke("#afafaf");
     			shape.graphics.moveTo(point_x_1_arry_mem[i],point_y_1_arry_mem[i]);
     			shape.graphics.lineTo(point_x_2_arry_mem[i],point_y_2_arry_mem[i]);
      			shape.graphics.lineTo(point_x_3_arry_mem[i],point_y_3_arry_mem[i]);
@@ -201,7 +201,7 @@
 
 
 			
-			/*font = 28 + "px "+"Sacramento";
+			font = 28 + "px "+"Sacramento";
 			text_title = new createjs.Text("PathCul()",font, "#ffffff");
 			text_title.textBaseline = "alphabetic";
 			text_title.regX = 0;
@@ -224,7 +224,6 @@
 			text.x = stage.canvas.width/2-63;
 			text.y = stage.canvas.height/2 + 70;
 			stage.addChild(text);
-			*/
 
 			stage.update();
 
@@ -234,7 +233,7 @@
 		var Path = function(parent_in,color_in){
 			var point_x;
 			var point_y;
-			createjs.Ticker.setFPS(1);
+			createjs.Ticker.setFPS(60);
 			createjs.Ticker.addEventListener("tick",act);
 
 			function act(){
@@ -264,7 +263,7 @@
 				shape.graphics.clear();
 				shape.graphics.beginStroke(particle_color_obj[i]);
 				shape.graphics.beginFill(particle_color_obj[i])
-				shape.graphics.arc(point_x,point_y,1.2,360,true);
+				shape.graphics.arc(point_x,point_y,0.8,360,true);
     		}
 				stage.update();
 			}

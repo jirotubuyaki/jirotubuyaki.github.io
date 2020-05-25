@@ -2,19 +2,21 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>ジェネラティブアート ボロノイ図 - CreateJS FLASH開発のオカダアルゴリズム [Okada Algorithm　Generative Art]</title>
-	<meta name="description" content="ボロノイ図。スクリーンセーバーやCreateJS・FLASHを作成する岡田匡司のWebポートフォリオへようこそ。アルゴリズムを用いたジェネラティブ アート・ベンチャービジネス・研究開発を三軸に活動しています。プログラミングを使ったメディアアートのポートフォリオが掲載されています。">
+	<title>ジェネラティブ・アート トルネード - CreateJS Flash開発のオカダアルゴリズム [Okada Algorithm　Generative Art]</title>
+	<meta name="description" content="トルネード。スクリーンセーバーやCreateJS・Flashを作成する岡田匡司のWebポートフォリオへようこそ。アルゴリズムを用いたジェネラティブ アート・ベンチャービジネス・研究開発を三軸に活動しています。プログラミングを使ったメディアアートのポートフォリオが掲載されています。">
     <meta name="viewport" content="maximum-scale=2.0,width=device-width,initial-scale=1.0,user-scalable=yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="robots" content="all">
 	<meta name="author" content="岡田匡司"> 
 	<meta name="keywords" content="ジェネラティブ・アート,アルゴリズム,岡田匡司,オカダアルゴリズム,CreateJS,FLASH,スクリーンセーバー,プログラム言語,データ構造,グラフアルゴリズム,近似アルゴリズム,乱択アルゴリズム,NP,計算量理論,巨大グラフアルゴリズム,ALENEX">
-	<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="" href="favicon.ico">
-	<script src="https://code.createjs.com/createjs-2013.12.12.min.js"></script>
-	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-	<script src="Main5.js"></script>
+	<script src="../back/swfobject.js"></script>
+	<script>
+	swfobject.embedSWF("../back/tornado.swf", "intro", "100%", "100%", "9.0.0", "expressInstall.swf");
+	</script>
+	<script src="http://code.createjs.com/createjs-2013.12.12.min.js"></script>
+	<script src="header.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,46 +27,22 @@
 </script>
     <style>
 	HTML{
+		overflow:hidden;
 	    height:100%;
 	    width:100%;
-    	background-color:#000000;
+    	background-color:#ffffff;
 	}
 	
 	BODY{
 		overflow:hidden;
 		margin:0px 0px;
-   		height:100%;
-		width:100%;
-
-	}
-	HEADER{
-		overflow:hidden;
-		margin:0px 0px;
-		background-color:#000000;
-		height:0%;
-		width:100%;
-
-	}
-	FOOTER{
-		overflow:hidden;
-		margin:0px 0px;
-		background-color:#000000;
-		height:0%;
+		background-color:#ffffff;
+		height:100%;
 		width:100%;
 
 	}
 	DIV{
 		text-align:center;
-		/*
-    	position: absolute;
-    	top: 50%;
-    	left: 50%;
-    	width: 320px;
-    	height: 300px;
-    	margin: -150px 0px 0px -160px;
-    	*/
-
-
 	}
 	A:link.logo{
 		display: block;
@@ -72,7 +50,7 @@
 		height: 45px;
 		font-size: 12pt;
 		text-decoration:underline;
-		color:#fff;
+		color:#222;
 		margin: 0 auto;
 		white-space: nowrap;
 	}
@@ -81,7 +59,7 @@
 		height: 45px;
 		font-size: 12pt;
 		text-decoration:underline;
-		color:#fff;
+		color:#222;
 		margin: 0 auto;
 		white-space: nowrap;
 	}
@@ -105,7 +83,17 @@
 	}
 	</style>
 </head>
-<body onload="init()">
-	<div><canvas id="mycanvas" width="640px" height="1200px" style="width:320px;height:600px;"></canvas></div>
-</body>
-</html>
+<body>
+<table valign="middle" align="center" width="100%" height="100%" border=0px>
+	<tr>
+		<td>
+			<div id="intro" valign="middle" align="center" width="100%" height="100%">
+				<p class="flash">ＦＬＡＳＨコンテンツです。ＦＬＡＳＨが使えるように設定してください。<br>アニメーションが表示されます。</p>
+				<br><br><br><br><br><br><br><br>
+				<p class="flash"><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" / border=0px></a></p>
+			</div>
+		</td>
+	</tr>
+</table>
+</body> 
+<html>

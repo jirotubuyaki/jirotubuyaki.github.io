@@ -2,19 +2,20 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>ジェネラティブアート ボロノイ図 - CreateJS FLASH開発のオカダアルゴリズム [Okada Algorithm　Generative Art]</title>
-	<meta name="description" content="ボロノイ図。スクリーンセーバーやCreateJS・FLASHを作成する岡田匡司のWebポートフォリオへようこそ。アルゴリズムを用いたジェネラティブ アート・ベンチャービジネス・研究開発を三軸に活動しています。プログラミングを使ったメディアアートのポートフォリオが掲載されています。">
+	<title>ジェネラティブアート バラ ミュージックビジュアライザー - CreateJS FLASH開発のオカダアルゴリズム [Okada Algorithm　Generative Art]</title>
+	<meta name="description" content="バラ ミュージックビジュアライザー。スクリーンセーバーやCreateJS・FLASHを作成する岡田匡司のWebポートフォリオへようこそ。アルゴリズムを用いたジェネラティブ アート・ベンチャービジネス・研究開発を三軸に活動しています。プログラミングを使ったメディアアートのポートフォリオが掲載されています。">
     <meta name="viewport" content="maximum-scale=2.0,width=device-width,initial-scale=1.0,user-scalable=yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="robots" content="all">
 	<meta name="author" content="岡田匡司"> 
-	<meta name="keywords" content="ジェネラティブ・アート,アルゴリズム,岡田匡司,オカダアルゴリズム,CreateJS,FLASH,スクリーンセーバー,プログラム言語,データ構造,グラフアルゴリズム,近似アルゴリズム,乱択アルゴリズム,NP,計算量理論,巨大グラフアルゴリズム,ALENEX">
+	<meta name="keywords" content="ジェネラティブ・アート,アルゴリズム,岡田匡司,オカダアルゴリズム,CreateJS,FLASH,スクリーンセーバー,プログラム言語,データ構造,グラフアルゴリズム,近似アルゴリズム,乱択アルゴリズム,NP,計算量理論,巨大グラフアルゴリズム,ALENEX,ジェネラティブ・アート">
 	<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="" href="favicon.ico">
 	<script src="https://code.createjs.com/createjs-2013.12.12.min.js"></script>
-	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-	<script src="Main5.js"></script>
+	<script src="swfobject.js"></script>
+	<script src="FlashPlugin.js"></script>
+	<script src="Main_motion.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,12 +28,13 @@
 	HTML{
 	    height:100%;
 	    width:100%;
-    	background-color:#000000;
+    	background-color:#ffffff;
 	}
 	
 	BODY{
 		overflow:hidden;
 		margin:0px 0px;
+    	background: url(./back_2@2X.png) repeat;
    		height:100%;
 		width:100%;
 
@@ -40,7 +42,7 @@
 	HEADER{
 		overflow:hidden;
 		margin:0px 0px;
-		background-color:#000000;
+		background-color:#bbbbbb;
 		height:0%;
 		width:100%;
 
@@ -48,13 +50,14 @@
 	FOOTER{
 		overflow:hidden;
 		margin:0px 0px;
-		background-color:#000000;
+		background-color:#aaaaaa;
 		height:0%;
 		width:100%;
 
 	}
 	DIV{
 		text-align:center;
+    	background: url(./back_2@2X.png) repeat;
 		/*
     	position: absolute;
     	top: 50%;
@@ -72,7 +75,7 @@
 		height: 45px;
 		font-size: 12pt;
 		text-decoration:underline;
-		color:#fff;
+		color:#222;
 		margin: 0 auto;
 		white-space: nowrap;
 	}
@@ -81,7 +84,7 @@
 		height: 45px;
 		font-size: 12pt;
 		text-decoration:underline;
-		color:#fff;
+		color:#222;
 		margin: 0 auto;
 		white-space: nowrap;
 	}

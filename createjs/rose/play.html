@@ -12,9 +12,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="" href="favicon.ico">
-	<script src="https://code.createjs.com/createjs-2013.12.12.min.js"></script>
-	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-	<script src="Main3.js"></script>
+	<script src="http://code.createjs.com/createjs-2013.12.12.min.js"></script>
+	<script src="Main_play.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,12 +26,13 @@
 	HTML{
 	    height:100%;
 	    width:100%;
-    	background-color:#000000;
+    	background-color:#ffffff;
 	}
 	
 	BODY{
 		overflow:hidden;
 		margin:0px 0px;
+    	background: url(./back_2@2X.png) repeat;
    		height:100%;
 		width:100%;
 
@@ -40,7 +40,7 @@
 	HEADER{
 		overflow:hidden;
 		margin:0px 0px;
-		background-color:#000000;
+		background-color:#bbbbbb;
 		height:0%;
 		width:100%;
 
@@ -48,13 +48,14 @@
 	FOOTER{
 		overflow:hidden;
 		margin:0px 0px;
-		background-color:#000000;
+		background-color:#aaaaaa;
 		height:0%;
 		width:100%;
 
 	}
 	DIV{
 		text-align:center;
+    	background: url(./back_2@2X.png) repeat;
 		/*
     	position: absolute;
     	top: 50%;
@@ -69,6 +70,8 @@
 	</style>
 </head>
 <body onload="init()">
+	    <input type="button" value="サウンドStart" id="startBtn">　　　
+    <input type="button" value="サウンドStop" id="stopBtn">
 	<div><canvas id="mycanvas" width="640px" height="1200px" style="width:320px;height:600px;"></canvas></div>
 </body>
 </html>
