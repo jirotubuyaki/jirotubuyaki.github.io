@@ -36,4 +36,4 @@ function getClickLatLng(lat_lng, map) {
         position: lat_lng,
         map: map
      });
-｝
+}
