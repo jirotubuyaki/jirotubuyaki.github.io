@@ -13,7 +13,7 @@ var obj = [];
 
 function init(){
     var mapOptions = {
-      center: new google.maps.LatLng(34.23951,134.3152),
+      center: new google.maps.LatLng(34.6661,133.9177),
       zoom: 13,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
