@@ -24,7 +24,7 @@ function init(){
   	title:"TEST"
     });
     var myInfoWindow = new google.maps.InfoWindow({
-        content: "TEST<br><center><img src=./images/gate.jpg height=70px width=100px></center>"
+        content: "TEST"
     });
     myInfoWindow.open(map, marker);
 }
