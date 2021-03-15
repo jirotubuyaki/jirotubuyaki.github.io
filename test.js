@@ -32,8 +32,9 @@ function init(){
     });
 }
 function getClickLatLng(lat_lng, map){
-     var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
         position: lat_lng,
         map: map
      });
+    map.panTo(lat_lng);
 }
