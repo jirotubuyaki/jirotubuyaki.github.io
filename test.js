@@ -31,7 +31,7 @@ function init(){
         getClickLatLng(e.latLng, map);
     });
 }
-function getClickLatLng(lat_lng, map) {
+function getClickLatLng(lat_lng, map){
      var marker = new google.maps.Marker({
         position: lat_lng,
         map: map
