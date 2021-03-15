@@ -27,4 +27,15 @@ function init(){
         content: "TEST"
     });
     myInfoWindow.open(map, marker);
+    map.addListener('click', function(e) {
+        getClickLatLng(e.latLng, map);
+    });
 }
+function getClickLatLng(lat_lng, map) {
+     document.getElementById('lat').textContent = lat_lng.lat();
+     document.getElementById('lng').textContent = lat_lng.lng();
+     var marker = new google.maps.Marker({
+        position: lat_lng,
+        map: map
+     });
+｝
