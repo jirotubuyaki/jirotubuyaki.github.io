@@ -26,4 +26,5 @@ function init(){
 		var myInfoWindow = new google.maps.InfoWindow({
 		content: "縺ｨ繧峨∪繧九ヱ繝壹ャ繝医Λ繝ｳ繝�<br><center><img src=./images/gate.jpg height=70px width=100px></center>"
 		});
-		myInfoWindow.open(map, marker);	
+		myInfoWindow.open(map, marker);
+}
