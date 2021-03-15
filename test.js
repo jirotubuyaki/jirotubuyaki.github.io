@@ -19,7 +19,7 @@ function init(){
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
     var marker = new google.maps.Marker({
-  	position: new google.maps.LatLng(34.23951,134.3152),
+  	position: new google.maps.LatLng(34.6661,133.9177),
   	map: map,
   	title:"TEST"
     });
