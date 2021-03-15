@@ -32,8 +32,6 @@ function init(){
     });
 }
 function getClickLatLng(lat_lng, map) {
-     document.getElementById('lat').textContent = lat_lng.lat();
-     document.getElementById('lng').textContent = lat_lng.lng();
      var marker = new google.maps.Marker({
         position: lat_lng,
         map: map
