@@ -18,13 +18,13 @@ function init(){
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
-		var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
   	position: new google.maps.LatLng(34.23951,134.3152),
   	map: map,
-  	title:"縺ｨ繧峨∪繧九ヱ繝壹ャ繝医Λ繝ｳ繝�"
-		});
-		var myInfoWindow = new google.maps.InfoWindow({
-		content: "縺ｨ繧峨∪繧九ヱ繝壹ャ繝医Λ繝ｳ繝�<br><center><img src=./images/gate.jpg height=70px width=100px></center>"
-		});
-		myInfoWindow.open(map, marker);
+  	title:"TEST"
+    });
+    var myInfoWindow = new google.maps.InfoWindow({
+        content: "TEST<br><center><img src=./images/gate.jpg height=70px width=100px></center>"
+    });
+    myInfoWindow.open(map, marker);
 }
