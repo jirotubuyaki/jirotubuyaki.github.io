@@ -24,7 +24,7 @@ function init(){
   	title:"TEST"
     });
     var myInfoWindow = new google.maps.InfoWindow({
-        content: "<form></form>"
+        content: "<form method=\"post\" action=\"example.cgi\" enctype=\"multipart/form-data\"></form>"
     });
     myInfoWindow.open(map, marker);
     map.addListener('click', function(e) {
