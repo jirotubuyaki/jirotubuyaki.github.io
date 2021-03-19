@@ -38,7 +38,7 @@ function getClickLatLng(lat_lng, map){
      });
     map.panTo(lat_lng);
      var myInfoWindow = new google.maps.InfoWindow({
-        content: "<p>地図上に画像・動画を登録できます。</p><form method=\"post\" action=\"example.cgi\" enctype=\"multipart/form-data\"><p>タイトル：　<input type=\"text\" name=title></p><p><メッセージ：textarea name=\"msg\" cols=\"30\" rows=\"6\"></textarea></p>複数ファイル：<input type=\"file\" name=\"example2\" multiple><input type=\"submit\" value=\"送信する\"></p></form>"
+        content: "<p>地図上に画像・動画を登録できます。</p><form method=\"post\" action=\"example.cgi\" enctype=\"multipart/form-data\"><p>タイトル：　<input type=\"text\" name=title></p><p>メッセージ：textarea name=\"msg\" cols=\"30\" rows=\"6\"></textarea></p>複数ファイル：<input type=\"file\" name=\"example2\" multiple><input type=\"submit\" value=\"送信する\"></p></form>"
     });
     myInfoWindow.open(map, marker);
 }
