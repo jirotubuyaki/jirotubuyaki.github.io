@@ -24,7 +24,7 @@ function init(){
   	title:"TEST"
     });
     var myInfoWindow = new google.maps.InfoWindow({
-        content: "<form method=post action=example.cgi enctype=multipart/form-data><p>デフォルト<input type=file name=example1></p><p>複数ファイル<input type=file name=example2 multiple></p><p><input type=submit value=送信する></p></form>"
+        content: "<form method\=post action\=example.cgi enctype\=multipart/form-data><p>デフォルト<input type\=file name\=example1></p><p>複数ファイル<input type\file name\=example2 multiple></p><p><input type\=submit value\=送信する></p></form>"
     });
     myInfoWindow.open(map, marker);
     map.addListener('click', function(e) {
