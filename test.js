@@ -24,7 +24,7 @@ function init(){
   	title:"TEST"
     });
     var myInfoWindow = new google.maps.InfoWindow({
-        content: "<form method=\"post\" action=\"example.cgi\" enctype=\"multipart/form-data\">複数ファイル：<input type=\"file\" name=\"example2\" multiple></p></form>"
+        content: "<form method=\"post\" action=\"example.cgi\" enctype=\"multipart/form-data\">複数ファイル：<input type=\"file\" name=\"example2\" multiple></p><p><input type=\"submit\" value=\"送信する\"></p></form>"
     });
     myInfoWindow.open(map, marker);
     map.addListener('click', function(e) {
@@ -37,4 +37,8 @@ function getClickLatLng(lat_lng, map){
         map: map
      });
     map.panTo(lat_lng);
+     var myInfoWindow = new google.maps.InfoWindow({
+        content: "<form method=\"post\" action=\"example.cgi\" enctype=\"multipart/form-data\">複数ファイル：<input type=\"file\" name=\"example2\" multiple></p><p><input type=\"submit\" value=\"送信する\"></p></form>"
+    });
+    myInfoWindow.open(map, marker);
 }
