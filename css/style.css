@@ -155,7 +155,6 @@ li{
 }
 #myself{
 	width: 30%;
-	height: : 30%;
 }
 A:link{
 	font-size: 10pt; text-decoration:underline; color:#00bfff;
@@ -380,7 +379,6 @@ A:hover{
 		height: 50px;
 	}
 	#myself{
-		height: 150px;
 		width: 150px;
 		text-align: right;
 	}
