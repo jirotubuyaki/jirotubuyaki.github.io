@@ -295,9 +295,9 @@
 			    dynamicsNode.connect(analyserNode);
 			    freqByteData = new Uint8Array(analyserNode.frequencyBinCount);
 	            if (createjs.Touch.enable(stage)) {
-	                messageField.text = "Touch to start";
+	                //messageField.text = "Touch to start";
 	            } else {
-	                messageField.text = "Click to start";
+	                //messageField.text = "Click to start";
 	            }
 	            stage.update();
 
