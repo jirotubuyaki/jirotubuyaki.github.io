@@ -5,7 +5,7 @@
 		var soundInstance;
 		var analyserNode;
 		var freqByteData;
-		var src = "./tw060.mp3";
+		var src = "./sound.mp3";
 		var cnt = 0;
 		var size =3;
 		var size_count=10;
@@ -21,13 +21,13 @@
 		var text;
 		var text_title;
 		var messageField;
-		var max_peak=500;
+		var max_peak=100;
 		var peak=0;
 		var peak_wave_x = 0;
 		var peak_wave_y = 0; 
 		var mybitmap_sound;
 		var image_sound;
-		var file_sound = "musical7.png"
+		var file_sound = "icon.png"
 		var context;
 
 		function init(){
@@ -36,9 +36,17 @@
 			center_x = stage.canvas.width/2;
 			center_y = 0;
 
+			font = 22 + "px "+"Cantarell";;
+			text_field_1 = new createjs.Text("Please start music by click on stage",font, "#515151");
+			text_field_1.textBaseline = "alphabetic";
+			text_field_1.regX = text_field_1.getMeasuredWidth()/2;
+			text_field_1.x = center_x;
+			text_field_1.y = 50;
+			stage.addChild(text_field_1);
+
    			var queue = new createjs.LoadQueue(true);
     		queue.installPlugin(createjs.Sound);
-   			var manifest = [{id:"sound",src:"./tw060.mp3"},];
+   			var manifest = [{id:"sound",src:"./sound.mp3"},];
     		queue.loadManifest(manifest,true);  
     		queue.addEventListener('fileload',handleLoad);	
 
@@ -49,9 +57,6 @@
 			function draw_sound(){
 				image_sound = mybitmap_sound.image;
 			}
-
-
-
 			for(var i=count_i;i>=1;i--){
 				j=count_j;
 				all_j = count_j * 10-1;	
@@ -256,7 +261,7 @@
 					}
 					shape.graphics.endFill();
 					shape.x = stage.canvas.width/2;
-					shape.y = 700;
+					shape.y = 300;
 
 					if(i == count_i){
 						tween = new createjs.Tween.get(shape,{loop:false})
@@ -295,12 +300,11 @@
 			    dynamicsNode.connect(analyserNode);
 			    freqByteData = new Uint8Array(analyserNode.frequencyBinCount);
 	            if (createjs.Touch.enable(stage)) {
-	                //messageField.text = "Touch to start";
-	            } else {
-	                //messageField.text = "Click to start";
 	            }
-	            stage.update();
+				else {
+	            }
 
+	            stage.update();
 	            stage.addEventListener("stagemousedown", startPlayback);
 	        }
 		}
@@ -308,11 +312,9 @@
 			try {
 				if (createjs.WebAudioPlugin.context && createjs.WebAudioPlugin.context.state === "suspended") {
 					createjs.WebAudioPlugin.context.resume();
-					// Should only need to fire once
 					window.removeEventListener("click", resumeAudioContext);
 				}
 			} catch (e) {
-				// SoundJS context or web audio plugin may not exist
 				console.error("There was an error while trying to resume the SoundJS Web Audio context...");
 				console.error(e);
 			}
@@ -934,6 +936,7 @@
 						}
 					}
 					obj[i].graphics.endFill();
+					obj[i].y = 300
 				}
 			}
 			time++;
